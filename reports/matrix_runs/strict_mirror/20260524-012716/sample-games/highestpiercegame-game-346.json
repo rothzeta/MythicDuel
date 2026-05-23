@@ -1,0 +1,3595 @@
+{
+  "GameId": "346",
+  "Seed": 346,
+  "Command": "dotnet run --project MythicDuel.Sim -- --mode batch --games 500 --seed 123 --out C:\\Users\\cedri\\source\\repos\\MythicDuelSim\\reports\\matrix_runs\\strict_mirror --bot-red iron --bot-iron iron --deck-red iron-hyena-pack-pressure --deck-iron iron-hyena-pack-pressure --rules strict-alternation",
+  "Bots": {
+    "Red": "IronHyenaBot",
+    "Iron": "IronHyenaBot"
+  },
+  "Seats": {
+    "Seat1": {
+      "Seat": 0,
+      "Name": "iron-hyena-pack-pressure",
+      "Faction": "Iron",
+      "DeckName": "iron-hyena-pack-pressure"
+    },
+    "Seat2": {
+      "Seat": 1,
+      "Name": "iron-hyena-pack-pressure",
+      "Faction": "Iron",
+      "DeckName": "iron-hyena-pack-pressure"
+    }
+  },
+  "Winner": "Iron",
+  "EndReason": 1,
+  "Outcome": 2,
+  "AdjudicatedWinner": "",
+  "Metrics": {
+    "GameId": "game-346",
+    "Seed": 346,
+    "Winner": "iron-hyena-pack-pressure",
+    "Loser": "iron-hyena-pack-pressure",
+    "Timeout": false,
+    "EndReason": "ShrineBreak",
+    "Outcome": "IronWin",
+    "AdjudicatedWinner": "",
+    "TimeoutDraws": 0,
+    "TimeoutAdjudicatedRed": 0,
+    "TimeoutAdjudicatedIron": 0,
+    "TurnCount": 14,
+    "PhaseCount": 1,
+    "FinalRedShrinesBroken": 3,
+    "FinalIronShrinesBroken": 2,
+    "FirstShrineDamageTurn": 3,
+    "FirstShrineBreakTurn": 7,
+    "FirstRedShrineBreakTurn": 8,
+    "FirstIronShrineBreakTurn": 7,
+    "FirstAncestorAwakenedTurn": 6,
+    "FirstL2Turn": 7,
+    "FirstL3Turn": null,
+    "RedL2Played": 1,
+    "RedL2EnteredBattlefield": 1,
+    "RedL2Evolved": 1,
+    "RedL2HardCast": 0,
+    "RedL3Played": 0,
+    "RedL3EnteredBattlefield": 0,
+    "RedL3Evolved": 0,
+    "RedL3HardCast": 0,
+    "RedL3Recalled": 0,
+    "RedL3PlayerWon": 0,
+    "IronL2Played": 0,
+    "IronL2EnteredBattlefield": 0,
+    "IronL2Evolved": 0,
+    "IronL2HardCast": 0,
+    "IronL3Played": 0,
+    "IronL3EnteredBattlefield": 0,
+    "IronL3Evolved": 0,
+    "IronL3HardCast": 0,
+    "IronL3Recalled": 0,
+    "IronL3PlayerWon": 0,
+    "FailedEvolutionAttemptsRed": 0,
+    "FailedEvolutionAttemptsIron": 0,
+    "LegalEvolveActionsGeneratedRed": 4,
+    "LegalEvolveActionsGeneratedIron": 0,
+    "LegalL2EvolveActionsGeneratedRed": 4,
+    "LegalL3EvolveActionsGeneratedRed": 0,
+    "LegalL2EvolveActionsGeneratedIron": 0,
+    "LegalL3EvolveActionsGeneratedIron": 0,
+    "EvolveActionsChosenRed": 4,
+    "EvolveActionsChosenIron": 0,
+    "EvolveWindowsRed": 2,
+    "EvolveWindowsIron": 0,
+    "TurnsWithLegalL2EvolutionRed": 2,
+    "TurnsWithLegalL3EvolutionRed": 0,
+    "TurnsWithLegalL2EvolutionIron": 0,
+    "TurnsWithLegalL3EvolutionIron": 0,
+    "HardCastChosenWhileLegalEvolveActionExistsRed": 0,
+    "HardCastChosenWhileLegalEvolveActionExistsIron": 0,
+    "HardCastChosenWhileEvolutionBaseExistsRed": 0,
+    "HardCastChosenWhileEvolutionBaseExistsIron": 0,
+    "LegalAwakenActionsGeneratedRed": 0,
+    "LegalAwakenActionsGeneratedIron": 2,
+    "AwakenActionsChosenRed": 0,
+    "AwakenActionsChosenIron": 2,
+    "AwakenActionsSkippedWhileLegalRed": 0,
+    "AwakenActionsSkippedWhileLegalIron": 0,
+    "AncestorSwitchesRed": 0,
+    "AncestorSwitchesIron": 1,
+    "MemorySpentOnAncestorsRed": 0,
+    "MemorySpentOnAncestorsIron": 4,
+    "FirstAwakenedAncestorRed": "",
+    "FirstAwakenedAncestorIron": "iron.ancestor.smithpassedfang",
+    "TurnsWithAwakenedAncestorRed": 0,
+    "TurnsWithAwakenedAncestorIron": 4,
+    "FirstHunterBonusDamage": 0,
+    "GrandmotherHealingDone": 0,
+    "ChildDrawDiscardTriggers": 0,
+    "IronHyenaAncestorBonusDamage": 0,
+    "SmithOfferingDiscountSaved": 1,
+    "ToothMotherBonusDamage": 0,
+    "MemoryGeneratedRed": 1,
+    "MemorySpentRed": 0,
+    "MemoryEndRed": 1,
+    "MemoryGeneratedIron": 4,
+    "MemorySpentIron": 4,
+    "MemoryEndIron": 0,
+    "OfferingsSpentRed": 24,
+    "OfferingsSpentIron": 15,
+    "AttacksDeclaredRed": 7,
+    "AttacksDeclaredIron": 13,
+    "PackUnitsReadyAtCombatStartRed": 8,
+    "PackUnitsReadyAtCombatStartIron": 10,
+    "PackAssaultSlotsGeneratedRed": 8,
+    "PackAssaultSlotsGeneratedIron": 9,
+    "PackAssaultSlotsAvailableRed": 8,
+    "PackAssaultSlotsAvailableIron": 9,
+    "PackAssaultSlotsSkippedRed": 5,
+    "PackAssaultSlotsSkippedIron": 2,
+    "TurnsWithPackBonusRed": 4,
+    "TurnsWithPackBonusIron": 4,
+    "MaxAttacksAvailableThisCombatRed": 22,
+    "MaxAttacksAvailableThisCombatIron": 23,
+    "AttacksPreventedByAssaultLimitRed": 0,
+    "AttacksPreventedByAssaultLimitIron": 0,
+    "StandardAssaultSlotsSpentRed": 4,
+    "StandardAssaultSlotsSpentIron": 6,
+    "PackAssaultSlotsSpentRed": 3,
+    "PackAssaultSlotsSpentIron": 7,
+    "ShrineAttacksRed": 7,
+    "ShrineAttacksIron": 13,
+    "BlockedShrineAttacksRed": 1,
+    "BlockedShrineAttacksIron": 3,
+    "LegalBlockOptionsRed": 13,
+    "LegalBlockOptionsIron": 6,
+    "BlocksChosenRed": 3,
+    "BlocksChosenIron": 1,
+    "BlocksDeclinedRed": 1,
+    "BlocksDeclinedIron": 1,
+    "UnitsKilledRed": 2,
+    "UnitsKilledIron": 3,
+    "SpiritsDispersedRed": 0,
+    "SpiritsDispersedIron": 0,
+    "WoundedEventsRed": 1,
+    "WoundedEventsIron": 2,
+    "WoundedDamageReductionEventsRed": 0,
+    "WoundedDamageReductionEventsIron": 2,
+    "PierceOverflowEventsRed": 0,
+    "PierceOverflowEventsIron": 2,
+    "PierceOverflowDamageRed": 0,
+    "PierceOverflowDamageIron": 4,
+    "WeaponmasterPierceEvents": 0,
+    "SoulslayerPierceEvents": 0,
+    "LeopardHunterPierceEvents": 0,
+    "PreparedTacticsPreparedRed": 0,
+    "PreparedTacticsPreparedIron": 0,
+    "PreparedTacticsTriggeredRed": 0,
+    "PreparedTacticsTriggeredIron": 0,
+    "PreparedTacticsExpiredRed": 0,
+    "PreparedTacticsExpiredIron": 0,
+    "ForgottenCardsRed": 4,
+    "ForgottenCardsIron": 3,
+    "FadeCardsResolvedRed": 4,
+    "FadeCardsResolvedIron": 3,
+    "FadeTacticsTriggeredRed": 0,
+    "FadeTacticsTriggeredIron": 0,
+    "FadeTacticsExpiredRed": 0,
+    "FadeTacticsExpiredIron": 0,
+    "CardsDrawnRed": 29,
+    "CardsDrawnIron": 29,
+    "CardsRetainedRed": 7,
+    "CardsRetainedIron": 7,
+    "CardsDiscardedRed": 14,
+    "CardsDiscardedIron": 17,
+    "DeckReshufflesRed": 0,
+    "DeckReshufflesIron": 0,
+    "ForgottenCardsExcludedFromReshuffleRed": 0,
+    "ForgottenCardsExcludedFromReshuffleIron": 0,
+    "PresenceUsedRed": 4,
+    "PresenceUsedIron": 4,
+    "PresenceLimitRed": 5,
+    "PresenceLimitIron": 5,
+    "PhaseBoundaryDoubleTurnsRed": 0,
+    "PhaseBoundaryDoubleTurnsIron": 0,
+    "ShrinesBrokenOnPhaseBoundaryRed": 0,
+    "ShrinesBrokenOnPhaseBoundaryIron": 0,
+    "EvolutionsOnPhaseBoundaryRed": 0,
+    "EvolutionsOnPhaseBoundaryIron": 0,
+    "FirstShrineDamageTurnRed": 4,
+    "FirstShrineDamageTurnIron": 3,
+    "WinsInOddPhase": 1,
+    "WinnerWasFirstPlayerInFinalPhase": 0,
+    "ShrineDamageDealtDuringDoubleTurnRed": 0,
+    "ShrineDamageDealtDuringDoubleTurnIron": 0
+  },
+  "Events": [
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Pack Harrier drawn from starting hand.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Iron Hyena Raider drawn from starting hand.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Hyena Pack Call drawn from starting hand.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Fang Relic drawn from starting hand.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Iron Hyena Raider drawn from starting hand.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Pack Ambush drawn from starting hand.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Pack Ambush drawn from starting hand.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Iron Hyena Champion drawn from starting hand.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Iron Hyena Champion drawn from starting hand.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Bite the Roots drawn from starting hand.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 0,
+      "Message": "Turn 1 started for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 1 Offerings on Pack Ambush.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 3,
+      "Message": "Pack Ambush resolved.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 11,
+      "Message": "Pack Ambush moved to Forgotten (rite resolved).",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 20,
+      "Message": "Pack Harrier retained.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Hyena Pack Call discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Iron Hyena Raider discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Iron Hyena Champion discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 1,
+      "Message": "Turn 1 ended for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 2,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 0,
+      "Message": "Turn 2 started for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 2,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 19,
+      "Message": "Spent 1 Offerings on Pack Ambush.",
+      "Data": null
+    },
+    {
+      "Turn": 2,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 3,
+      "Message": "Pack Ambush resolved.",
+      "Data": null
+    },
+    {
+      "Turn": 2,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 11,
+      "Message": "Pack Ambush moved to Forgotten (rite resolved).",
+      "Data": null
+    },
+    {
+      "Turn": 2,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 20,
+      "Message": "Bite the Roots retained.",
+      "Data": null
+    },
+    {
+      "Turn": 2,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Iron Hyena Raider discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 2,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Fang Relic discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 2,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Iron Hyena Champion discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 2,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 1,
+      "Message": "Turn 2 ended for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 0,
+      "Message": "Turn 3 started for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Pack Ambush drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Hyena Pack Call drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Bone Spear drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Iron Hyena Raider drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 1 Offerings on Pack Ambush.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 3,
+      "Message": "Pack Ambush resolved.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 8,
+      "Message": "Pack Ambush deals 1 to Shrine.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 11,
+      "Message": "Pack Ambush moved to Forgotten (rite resolved).",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 1 Offerings on Bone Spear.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 3,
+      "Message": "Bone Spear attached to Hyena Token.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 4,
+      "Message": "Hyena Token attacks Bone-Fang Shrine.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 8,
+      "Message": "Bone-Fang Shrine takes 3 damage.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 20,
+      "Message": "Pack Harrier retained.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Hyena Pack Call discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Iron Hyena Raider discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 1,
+      "Message": "Turn 3 ended for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 0,
+      "Message": "Turn 4 started for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Pack Harrier drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Iron Hyena Champion drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Black-Tooth Smith drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Pack Harrier drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 19,
+      "Message": "Spent 2 Offerings on Bite the Roots.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 3,
+      "Message": "Bite the Roots resolved.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 8,
+      "Message": "Bite the Roots deals 3 to Bone-Fang Shrine.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 11,
+      "Message": "Bite the Roots moved to Forgotten (rite resolved).",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 4,
+      "Message": "Hyena Token attacks Bone-Fang Shrine.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 8,
+      "Message": "Bone-Fang Shrine takes 2 damage.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 17,
+      "Message": "Gained 1 Memory (Iron Hyena Den triggered.).",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 20,
+      "Message": "Black-Tooth Smith retained.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Pack Harrier discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Iron Hyena Champion discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Pack Harrier discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 1,
+      "Message": "Turn 4 ended for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 0,
+      "Message": "Turn 5 started for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Pack Harrier drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Bone-Cracker Cub drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Bone Spear drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Pack Harrier drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 1 Offerings on Bone Spear.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 3,
+      "Message": "Bone Spear attached to Hyena Token.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 4,
+      "Message": "Hyena Token attacks Bone-Fang Shrine.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 8,
+      "Message": "Bone-Fang Shrine takes 3 damage.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 4,
+      "Message": "Hyena Token attacks Bone-Fang Shrine.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 8,
+      "Message": "Bone-Fang Shrine takes 2 damage.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 1 Offerings on Pack Harrier.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 3,
+      "Message": "Pack Harrier entered the battlefield.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 1 Offerings on Pack Harrier.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 3,
+      "Message": "Pack Harrier entered the battlefield.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 20,
+      "Message": "Pack Harrier retained.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Bone-Cracker Cub discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 1,
+      "Message": "Turn 5 ended for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 0,
+      "Message": "Turn 6 started for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Blood-Scent Hyena drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Bone Spear drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Blood-Scent Hyena drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Bone-Cracker Cub drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 19,
+      "Message": "Spent 1 Offerings on Bone Spear.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 3,
+      "Message": "Bone Spear attached to Hyena Token.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 19,
+      "Message": "Spent 2 Offerings on Blood-Scent Hyena.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 3,
+      "Message": "Blood-Scent Hyena entered the battlefield.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 4,
+      "Message": "Hyena Token attacks Bone-Fang Shrine.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 8,
+      "Message": "Bone-Fang Shrine takes 3 damage.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 17,
+      "Message": "Gained 1 Memory (Iron Hyena Den triggered.).",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 18,
+      "Message": "Spent 2 Memory on Awakened Smith Who Passed the Fang.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 16,
+      "Message": "Smith Who Passed the Fang awakened.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 20,
+      "Message": "Black-Tooth Smith retained.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Blood-Scent Hyena discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Bone-Cracker Cub discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 1,
+      "Message": "Turn 6 ended for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 0,
+      "Message": "Turn 7 started for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Black-Tooth Smith drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Bone-Cracker Cub drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Bone-Cracker Cub drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Iron Hyena Champion drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 3 Offerings on Iron Hyena Champion.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 15,
+      "Message": "Hyena Token evolved into Iron Hyena Champion.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 8,
+      "Message": "Iron Hyena Champion deals 2 damage to Bone-Fang Shrine on evolve.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 9,
+      "Message": "Bone-Fang Shrine is broken.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 20,
+      "Message": "Black-Tooth Smith retained.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Pack Harrier discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Bone-Cracker Cub discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Bone-Cracker Cub discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 1,
+      "Message": "Turn 7 ended for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 0,
+      "Message": "Turn 8 started for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Bone Spear drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Pack Harrier drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Pack Harrier drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Bone-Cracker Cub drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 3,
+      "Message": "Bone Spear attached to Blood-Scent Hyena.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 4,
+      "Message": "Hyena Token attacks Bone-Fang Shrine.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 5,
+      "Message": "Hyena Token deals 1 to Hyena Token.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 5,
+      "Message": "Hyena Token deals 2 to Hyena Token.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 6,
+      "Message": "Hyena Token died in combat.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 6,
+      "Message": "Hyena Token died in combat.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 4,
+      "Message": "Blood-Scent Hyena attacks Bone-Fang Shrine.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 8,
+      "Message": "Blood-Scent Hyena deals 1 to Iron Hyena Den on attack.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 5,
+      "Message": "Pack Harrier deals 1 to Blood-Scent Hyena.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 5,
+      "Message": "Blood-Scent Hyena deals 3 to Pack Harrier.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 6,
+      "Message": "Pack Harrier died in combat.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 8,
+      "Message": "Bone-Fang Shrine takes 2 damage.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 17,
+      "Message": "Gained 1 Memory (Iron Hyena Den triggered.).",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 9,
+      "Message": "Bone-Fang Shrine is broken.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 19,
+      "Message": "Spent 3 Offerings on Black-Tooth Smith.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 3,
+      "Message": "Black-Tooth Smith entered the battlefield.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 19,
+      "Message": "Spent 1 Offerings on Pack Harrier.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 3,
+      "Message": "Pack Harrier entered the battlefield.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 20,
+      "Message": "Pack Harrier retained.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Bone-Cracker Cub discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 1,
+      "Message": "Turn 8 ended for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 0,
+      "Message": "Turn 9 started for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Blood-Scent Hyena drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Fang Relic drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Pack Harrier drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Black-Tooth Smith drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 2 Offerings on Fang Relic.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 3,
+      "Message": "Fang Relic attached to Iron Hyena Champion.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 4,
+      "Message": "Iron Hyena Champion attacks Iron Hyena Den.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 8,
+      "Message": "Iron Hyena Den takes 6 damage.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 4,
+      "Message": "Pack Harrier attacks Iron Hyena Den.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 8,
+      "Message": "Iron Hyena Den takes 1 damage.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 3 Offerings on Black-Tooth Smith.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 3,
+      "Message": "Black-Tooth Smith entered the battlefield.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 20,
+      "Message": "Black-Tooth Smith retained.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Blood-Scent Hyena discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Pack Harrier discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 1,
+      "Message": "Turn 9 ended for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 0,
+      "Message": "Turn 10 started for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Hyena Pack Call drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Bone-Cracker Cub drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Blood-Scent Hyena drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Iron Hyena Raider drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 19,
+      "Message": "Spent 1 Offerings on Pack Harrier.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 3,
+      "Message": "Pack Harrier entered the battlefield.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 19,
+      "Message": "Spent 1 Offerings on Bone-Cracker Cub.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 3,
+      "Message": "Bone-Cracker Cub entered the battlefield.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 4,
+      "Message": "Black-Tooth Smith attacks Iron Hyena Den.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 8,
+      "Message": "Iron Hyena Den takes 2 damage.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 17,
+      "Message": "Gained 1 Memory (Iron Hyena Den triggered.).",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 4,
+      "Message": "Blood-Scent Hyena attacks Iron Hyena Den.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 8,
+      "Message": "Blood-Scent Hyena deals 1 to Rusted Moon Shrine on attack.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 8,
+      "Message": "Iron Hyena Den takes 2 damage.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 4,
+      "Message": "Pack Harrier attacks Iron Hyena Den.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 8,
+      "Message": "Iron Hyena Den takes 1 damage.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 18,
+      "Message": "Spent 2 Memory on Awakened Ancestor of the First Pack.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 16,
+      "Message": "Ancestor of the First Pack awakened.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 20,
+      "Message": "Blood-Scent Hyena retained.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Hyena Pack Call discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Iron Hyena Raider discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 1,
+      "Message": "Turn 10 ended for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 0,
+      "Message": "Turn 11 started for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Fang Relic drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Bone-Cracker Cub drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Bite the Roots drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Bite the Roots drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 2 Offerings on Bite the Roots.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 3,
+      "Message": "Bite the Roots resolved.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 8,
+      "Message": "Bite the Roots deals 3 to Iron Hyena Den.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 9,
+      "Message": "Iron Hyena Den is broken.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 17,
+      "Message": "Gained 1 Memory (Bite the Roots broke a Shrine.).",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 11,
+      "Message": "Bite the Roots moved to Forgotten (rite resolved).",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 2 Offerings on Bite the Roots.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 3,
+      "Message": "Bite the Roots resolved.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 8,
+      "Message": "Bite the Roots deals 3 to Rusted Moon Shrine.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 11,
+      "Message": "Bite the Roots moved to Forgotten (rite resolved).",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 20,
+      "Message": "Fang Relic retained.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Black-Tooth Smith discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Bone-Cracker Cub discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 1,
+      "Message": "Turn 11 ended for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 0,
+      "Message": "Turn 12 started for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Bone-Cracker Cub drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Iron Hyena Raider drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Black-Tooth Smith drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Pack Ambush drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 19,
+      "Message": "Spent 1 Offerings on Pack Ambush.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 3,
+      "Message": "Pack Ambush resolved.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 8,
+      "Message": "Pack Ambush deals 1 to Shrine.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 11,
+      "Message": "Pack Ambush moved to Forgotten (rite resolved).",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 4,
+      "Message": "Black-Tooth Smith attacks Iron Hyena Den.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 8,
+      "Message": "Iron Hyena Den takes 2 damage.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 4,
+      "Message": "Blood-Scent Hyena attacks Iron Hyena Den.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 8,
+      "Message": "Blood-Scent Hyena deals 1 to Rusted Moon Shrine on attack.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 5,
+      "Message": "Pack Harrier deals 1 to Blood-Scent Hyena.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 5,
+      "Message": "Blood-Scent Hyena deals 3 to Pack Harrier.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 6,
+      "Message": "Pack Harrier died in combat.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 8,
+      "Message": "Iron Hyena Den takes 2 damage.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 9,
+      "Message": "Iron Hyena Den is broken.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 20,
+      "Message": "Black-Tooth Smith retained.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Blood-Scent Hyena discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Bone-Cracker Cub discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Iron Hyena Raider discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 1,
+      "Message": "Turn 12 ended for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 0,
+      "Message": "Turn 13 started for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Blood-Scent Hyena drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Blood-Scent Hyena drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Hyena Pack Call drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Blood-Scent Hyena drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 2 Offerings on Fang Relic.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 3,
+      "Message": "Fang Relic attached to Iron Hyena Champion.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 4,
+      "Message": "Black-Tooth Smith attacks Rusted Moon Shrine.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 8,
+      "Message": "Rusted Moon Shrine takes 2 damage.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 4,
+      "Message": "Iron Hyena Champion attacks Rusted Moon Shrine.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 8,
+      "Message": "Fang Relic deals 1 to Rusted Moon Shrine on attack.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 5,
+      "Message": "Pack Harrier deals 1 to Iron Hyena Champion.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 5,
+      "Message": "Iron Hyena Champion deals 6 to Pack Harrier.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 6,
+      "Message": "Pack Harrier died in combat.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 2 Offerings on Blood-Scent Hyena.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 3,
+      "Message": "Blood-Scent Hyena entered the battlefield.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 2 Offerings on Blood-Scent Hyena.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 3,
+      "Message": "Blood-Scent Hyena entered the battlefield.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 20,
+      "Message": "Blood-Scent Hyena retained.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Hyena Pack Call discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 1,
+      "Message": "Turn 13 ended for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 0,
+      "Message": "Turn 14 started for iron-hyena-pack-pressure.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Hyena Pack Call drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Blood-Scent Hyena drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Hyena Pack Call drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Fang Relic drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 19,
+      "Message": "Spent 2 Offerings on Fang Relic.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 3,
+      "Message": "Fang Relic attached to Blood-Scent Hyena.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 4,
+      "Message": "Black-Tooth Smith attacks Rusted Moon Shrine.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 8,
+      "Message": "Rusted Moon Shrine takes 2 damage.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 4,
+      "Message": "Blood-Scent Hyena attacks Rusted Moon Shrine.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 8,
+      "Message": "Blood-Scent Hyena deals 1 to Rusted Moon Shrine on attack.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 8,
+      "Message": "Fang Relic deals 1 to Rusted Moon Shrine on attack.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 8,
+      "Message": "Rusted Moon Shrine takes 2 damage.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 4,
+      "Message": "Pack Harrier attacks Rusted Moon Shrine.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 8,
+      "Message": "Rusted Moon Shrine takes 1 damage.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 4,
+      "Message": "Bone-Cracker Cub attacks Rusted Moon Shrine.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 8,
+      "Message": "Rusted Moon Shrine takes 3 damage.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 9,
+      "Message": "Rusted Moon Shrine is broken.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 20,
+      "Message": "Black-Tooth Smith retained.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Hyena Pack Call discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Blood-Scent Hyena discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Hyena Pack Call discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 1,
+      "Message": "Turn 14 ended for iron-hyena-pack-pressure.",
+      "Data": null
+    }
+  ],
+  "Turns": [
+    {
+      "TurnNumber": 1,
+      "PhaseNumber": 1,
+      "Player": 0,
+      "Main1Actions": [
+        "Main 1: resolved Pack Ambush (summoned Hyena Token)"
+      ],
+      "Attacks": [],
+      "Main2Actions": [],
+      "Start": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Hyena Pack Call",
+          "Iron Hyena Champion",
+          "Iron Hyena Raider",
+          "Pack Ambush",
+          "Pack Harrier"
+        ],
+        "Battlefield": [],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 0/10",
+          "Bone-Fang Shrine: 0/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": []
+      },
+      "End": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Pack Harrier"
+        ],
+        "Battlefield": [
+          "Hyena Token"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 0/10",
+          "Bone-Fang Shrine: 0/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Pack Ambush"
+        ]
+      },
+      "RetainedCard": "Pack Harrier",
+      "DiscardedCards": [
+        "Hyena Pack Call",
+        "Iron Hyena Raider",
+        "Iron Hyena Champion"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 2,
+      "PhaseNumber": 1,
+      "Player": 1,
+      "Main1Actions": [
+        "Main 1: resolved Pack Ambush (summoned Hyena Token)"
+      ],
+      "Attacks": [],
+      "Main2Actions": [],
+      "Start": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Bite the Roots",
+          "Fang Relic",
+          "Iron Hyena Champion",
+          "Iron Hyena Raider",
+          "Pack Ambush"
+        ],
+        "Battlefield": [],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 0/10",
+          "Bone-Fang Shrine: 0/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": []
+      },
+      "End": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Bite the Roots"
+        ],
+        "Battlefield": [
+          "Hyena Token"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 0/10",
+          "Bone-Fang Shrine: 0/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Pack Ambush"
+        ]
+      },
+      "RetainedCard": "Bite the Roots",
+      "DiscardedCards": [
+        "Iron Hyena Raider",
+        "Fang Relic",
+        "Iron Hyena Champion"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 3,
+      "PhaseNumber": 1,
+      "Player": 0,
+      "Main1Actions": [
+        "Main 1: resolved Pack Ambush (summoned Hyena Token and dealt 1 to Shrine)",
+        "Main 1: attached Bone Spear to Hyena Token"
+      ],
+      "Attacks": [
+        {
+          "Attacker": "Hyena Token",
+          "Target": "Bone-Fang Shrine",
+          "Defender": "No blocker",
+          "PreparedTriggers": [],
+          "Calculations": [],
+          "DamageEvents": [
+            "Shrine Bone-Fang Shrine takes 3."
+          ],
+          "Result": "Hyena Token survives, Bone-Fang Shrine at 6/10"
+        }
+      ],
+      "Main2Actions": [],
+      "Start": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Pack Harrier"
+        ],
+        "Battlefield": [
+          "Hyena Token"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 0/10",
+          "Bone-Fang Shrine: 0/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Pack Ambush"
+        ]
+      },
+      "End": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Pack Harrier"
+        ],
+        "Battlefield": [
+          "Bone Spear",
+          "Hyena Token",
+          "Hyena Token [Relic:Bone Spear]"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 0/10",
+          "Bone-Fang Shrine: 0/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Pack Ambush",
+          "Pack Ambush"
+        ]
+      },
+      "RetainedCard": "Pack Harrier",
+      "DiscardedCards": [
+        "Hyena Pack Call",
+        "Iron Hyena Raider"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 4,
+      "PhaseNumber": 1,
+      "Player": 1,
+      "Main1Actions": [
+        "Main 1: resolved Bite the Roots (dealt 3 to Bone-Fang Shrine)"
+      ],
+      "Attacks": [
+        {
+          "Attacker": "Hyena Token",
+          "Target": "Bone-Fang Shrine",
+          "Defender": "No blocker",
+          "PreparedTriggers": [],
+          "Calculations": [],
+          "DamageEvents": [
+            "Shrine Bone-Fang Shrine takes 2."
+          ],
+          "Result": "Hyena Token survives, Bone-Fang Shrine at 5/10"
+        }
+      ],
+      "Main2Actions": [],
+      "Start": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Bite the Roots"
+        ],
+        "Battlefield": [
+          "Hyena Token"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 0/10",
+          "Bone-Fang Shrine: 4/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Pack Ambush"
+        ]
+      },
+      "End": {
+        "Offerings": 0,
+        "Memory": 1,
+        "Hand": [
+          "Black-Tooth Smith"
+        ],
+        "Battlefield": [
+          "Hyena Token"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 0/10",
+          "Bone-Fang Shrine: 4/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Pack Ambush"
+        ]
+      },
+      "RetainedCard": "Black-Tooth Smith",
+      "DiscardedCards": [
+        "Pack Harrier",
+        "Iron Hyena Champion",
+        "Pack Harrier"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 5,
+      "PhaseNumber": 1,
+      "Player": 0,
+      "Main1Actions": [
+        "Main 1: attached Bone Spear to Hyena Token"
+      ],
+      "Attacks": [
+        {
+          "Attacker": "Hyena Token",
+          "Target": "Bone-Fang Shrine",
+          "Defender": "No blocker",
+          "PreparedTriggers": [],
+          "Calculations": [],
+          "DamageEvents": [
+            "Shrine Bone-Fang Shrine takes 3."
+          ],
+          "Result": "Hyena Token survives, Bone-Fang Shrine at 3/10"
+        },
+        {
+          "Attacker": "Hyena Token",
+          "Target": "Bone-Fang Shrine",
+          "Defender": "No blocker",
+          "PreparedTriggers": [],
+          "Calculations": [],
+          "DamageEvents": [
+            "Shrine Bone-Fang Shrine takes 2."
+          ],
+          "Result": "Hyena Token survives, Bone-Fang Shrine at 1/10"
+        }
+      ],
+      "Main2Actions": [
+        "Main 2: played Pack Harrier",
+        "Main 2: played Pack Harrier"
+      ],
+      "Start": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Pack Harrier"
+        ],
+        "Battlefield": [
+          "Bone Spear",
+          "Hyena Token",
+          "Hyena Token [Relic:Bone Spear]"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 0/10",
+          "Bone-Fang Shrine: 5/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Pack Ambush",
+          "Pack Ambush"
+        ]
+      },
+      "End": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Pack Harrier"
+        ],
+        "Battlefield": [
+          "Bone Spear",
+          "Bone Spear",
+          "Hyena Token",
+          "Hyena Token [Relic:Bone Spear]",
+          "Pack Harrier",
+          "Pack Harrier"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 0/10",
+          "Bone-Fang Shrine: 5/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Pack Ambush",
+          "Pack Ambush"
+        ]
+      },
+      "RetainedCard": "Pack Harrier",
+      "DiscardedCards": [
+        "Bone-Cracker Cub"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 6,
+      "PhaseNumber": 1,
+      "Player": 1,
+      "Main1Actions": [
+        "Main 1: attached Bone Spear to Hyena Token",
+        "Main 1: played Blood-Scent Hyena"
+      ],
+      "Attacks": [
+        {
+          "Attacker": "Hyena Token",
+          "Target": "Bone-Fang Shrine",
+          "Defender": "No blocker",
+          "PreparedTriggers": [],
+          "Calculations": [],
+          "DamageEvents": [
+            "Shrine Bone-Fang Shrine takes 3."
+          ],
+          "Result": "Hyena Token survives, Bone-Fang Shrine at 2/10"
+        }
+      ],
+      "Main2Actions": [
+        "Main 2: awakened Smith Who Passed the Fang"
+      ],
+      "Start": {
+        "Offerings": 0,
+        "Memory": 1,
+        "Hand": [
+          "Black-Tooth Smith"
+        ],
+        "Battlefield": [
+          "Hyena Token"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 0/10",
+          "Bone-Fang Shrine: 9/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Pack Ambush"
+        ]
+      },
+      "End": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Black-Tooth Smith"
+        ],
+        "Battlefield": [
+          "Blood-Scent Hyena",
+          "Bone Spear",
+          "Hyena Token [Relic:Bone Spear]"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": "Smith Who Passed the Fang",
+        "ShrineDamage": [
+          "Iron Hyena Den: 0/10",
+          "Bone-Fang Shrine: 9/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Pack Ambush"
+        ]
+      },
+      "RetainedCard": "Black-Tooth Smith",
+      "DiscardedCards": [
+        "Blood-Scent Hyena",
+        "Bone-Cracker Cub"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 7,
+      "PhaseNumber": 1,
+      "Player": 0,
+      "Main1Actions": [
+        "Main 1: evolved Hyena Token into Iron Hyena Champion (dealt 2 to Bone-Fang Shrine and broke it)"
+      ],
+      "Attacks": [],
+      "Main2Actions": [],
+      "Start": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Pack Harrier"
+        ],
+        "Battlefield": [
+          "Bone Spear",
+          "Bone Spear",
+          "Hyena Token",
+          "Hyena Token [Relic:Bone Spear]",
+          "Pack Harrier",
+          "Pack Harrier"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 0/10",
+          "Bone-Fang Shrine: 8/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Pack Ambush",
+          "Pack Ambush"
+        ]
+      },
+      "End": {
+        "Offerings": 1,
+        "Memory": 0,
+        "Hand": [
+          "Black-Tooth Smith"
+        ],
+        "Battlefield": [
+          "Bone Spear",
+          "Bone Spear",
+          "Hyena Token",
+          "Iron Hyena Champion [Relic:Bone Spear]",
+          "Pack Harrier",
+          "Pack Harrier"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 0/10",
+          "Bone-Fang Shrine: 8/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Pack Ambush",
+          "Pack Ambush"
+        ]
+      },
+      "RetainedCard": "Black-Tooth Smith",
+      "DiscardedCards": [
+        "Pack Harrier",
+        "Bone-Cracker Cub",
+        "Bone-Cracker Cub"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 8,
+      "PhaseNumber": 1,
+      "Player": 1,
+      "Main1Actions": [
+        "Main 1: attached Bone Spear to Blood-Scent Hyena"
+      ],
+      "Attacks": [
+        {
+          "Attacker": "Hyena Token",
+          "Target": "Bone-Fang Shrine",
+          "Defender": "Hyena Token",
+          "PreparedTriggers": [],
+          "Calculations": [],
+          "DamageEvents": [
+            "Hyena Token deals 1 to Hyena Token.",
+            "Hyena Token deals 2 to Hyena Token."
+          ],
+          "Result": "Hyena Token left battle, Hyena Token removed, Bone-Fang Shrine at 2/10"
+        },
+        {
+          "Attacker": "Blood-Scent Hyena",
+          "Target": "Bone-Fang Shrine",
+          "Defender": "Pack Harrier",
+          "PreparedTriggers": [],
+          "Calculations": [
+            "Blood-Scent Hyena becomes Wounded.",
+            "Bone Spear grants Pierce against damaged Shrine.",
+            "Pierce overflow deals 2 to Bone-Fang Shrine."
+          ],
+          "DamageEvents": [
+            "Pack Harrier deals 1 to Blood-Scent Hyena.",
+            "Blood-Scent Hyena deals 3 to Pack Harrier.",
+            "Shrine Bone-Fang Shrine takes 2."
+          ],
+          "Result": "Blood-Scent Hyena survives, Pack Harrier removed, Bone-Fang Shrine at 0/10"
+        }
+      ],
+      "Main2Actions": [
+        "Main 2: played Black-Tooth Smith",
+        "Main 2: played Pack Harrier"
+      ],
+      "Start": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Black-Tooth Smith"
+        ],
+        "Battlefield": [
+          "Blood-Scent Hyena",
+          "Bone Spear",
+          "Hyena Token [Relic:Bone Spear]"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": "Smith Who Passed the Fang",
+        "ShrineDamage": [
+          "Iron Hyena Den: 0/10",
+          "Bone-Fang Shrine: 11/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Pack Ambush"
+        ]
+      },
+      "End": {
+        "Offerings": 0,
+        "Memory": 1,
+        "Hand": [
+          "Pack Harrier"
+        ],
+        "Battlefield": [
+          "Black-Tooth Smith",
+          "Blood-Scent Hyena [Wounded, Relic:Bone Spear]",
+          "Bone Spear",
+          "Pack Harrier"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": "Smith Who Passed the Fang",
+        "ShrineDamage": [
+          "Iron Hyena Den: 0/10",
+          "Bone-Fang Shrine: 11/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Pack Ambush"
+        ]
+      },
+      "RetainedCard": "Pack Harrier",
+      "DiscardedCards": [
+        "Bone-Cracker Cub"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 9,
+      "PhaseNumber": 1,
+      "Player": 0,
+      "Main1Actions": [
+        "Main 1: attached Fang Relic to Iron Hyena Champion"
+      ],
+      "Attacks": [
+        {
+          "Attacker": "Iron Hyena Champion",
+          "Target": "Iron Hyena Den",
+          "Defender": "No blocker",
+          "PreparedTriggers": [],
+          "Calculations": [],
+          "DamageEvents": [
+            "Shrine Iron Hyena Den takes 6."
+          ],
+          "Result": "Iron Hyena Champion survives, Iron Hyena Den at 4/10"
+        },
+        {
+          "Attacker": "Pack Harrier",
+          "Target": "Iron Hyena Den",
+          "Defender": "No blocker",
+          "PreparedTriggers": [],
+          "Calculations": [],
+          "DamageEvents": [
+            "Shrine Iron Hyena Den takes 1."
+          ],
+          "Result": "Pack Harrier survives, Iron Hyena Den at 3/10"
+        }
+      ],
+      "Main2Actions": [
+        "Main 2: played Black-Tooth Smith"
+      ],
+      "Start": {
+        "Offerings": 1,
+        "Memory": 0,
+        "Hand": [
+          "Black-Tooth Smith"
+        ],
+        "Battlefield": [
+          "Bone Spear",
+          "Bone Spear",
+          "Iron Hyena Champion [Relic:Bone Spear]",
+          "Pack Harrier"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 1/10",
+          "Bone-Fang Shrine: 10/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Pack Ambush",
+          "Pack Ambush"
+        ]
+      },
+      "End": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Black-Tooth Smith"
+        ],
+        "Battlefield": [
+          "Black-Tooth Smith",
+          "Bone Spear",
+          "Bone Spear",
+          "Fang Relic",
+          "Iron Hyena Champion [Relic:Fang Relic]",
+          "Pack Harrier"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 1/10",
+          "Bone-Fang Shrine: 10/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Pack Ambush",
+          "Pack Ambush"
+        ]
+      },
+      "RetainedCard": "Black-Tooth Smith",
+      "DiscardedCards": [
+        "Blood-Scent Hyena",
+        "Pack Harrier"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 10,
+      "PhaseNumber": 1,
+      "Player": 1,
+      "Main1Actions": [
+        "Main 1: played Pack Harrier",
+        "Main 1: played Bone-Cracker Cub"
+      ],
+      "Attacks": [
+        {
+          "Attacker": "Black-Tooth Smith",
+          "Target": "Iron Hyena Den",
+          "Defender": "No blocker",
+          "PreparedTriggers": [],
+          "Calculations": [],
+          "DamageEvents": [
+            "Shrine Iron Hyena Den takes 2."
+          ],
+          "Result": "Black-Tooth Smith survives, Iron Hyena Den at 7/10"
+        },
+        {
+          "Attacker": "Blood-Scent Hyena",
+          "Target": "Iron Hyena Den",
+          "Defender": "No blocker",
+          "PreparedTriggers": [],
+          "Calculations": [
+            "Wounded reduces Blood-Scent Hyena from 3 to 2."
+          ],
+          "DamageEvents": [
+            "Shrine Iron Hyena Den takes 2."
+          ],
+          "Result": "Blood-Scent Hyena survives, Iron Hyena Den at 5/10"
+        },
+        {
+          "Attacker": "Pack Harrier",
+          "Target": "Iron Hyena Den",
+          "Defender": "No blocker",
+          "PreparedTriggers": [],
+          "Calculations": [],
+          "DamageEvents": [
+            "Shrine Iron Hyena Den takes 1."
+          ],
+          "Result": "Pack Harrier survives, Iron Hyena Den at 4/10"
+        }
+      ],
+      "Main2Actions": [
+        "Main 2: awakened Ancestor of the First Pack"
+      ],
+      "Start": {
+        "Offerings": 0,
+        "Memory": 1,
+        "Hand": [
+          "Pack Harrier"
+        ],
+        "Battlefield": [
+          "Black-Tooth Smith",
+          "Blood-Scent Hyena [Wounded, Relic:Bone Spear]",
+          "Bone Spear",
+          "Pack Harrier"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": "Smith Who Passed the Fang",
+        "ShrineDamage": [
+          "Iron Hyena Den: 7/10",
+          "Bone-Fang Shrine: 11/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Pack Ambush"
+        ]
+      },
+      "End": {
+        "Offerings": 3,
+        "Memory": 0,
+        "Hand": [
+          "Blood-Scent Hyena"
+        ],
+        "Battlefield": [
+          "Black-Tooth Smith",
+          "Blood-Scent Hyena [Relic:Bone Spear]",
+          "Bone Spear",
+          "Bone-Cracker Cub",
+          "Pack Harrier",
+          "Pack Harrier"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": "Ancestor of the First Pack",
+        "ShrineDamage": [
+          "Iron Hyena Den: 7/10",
+          "Bone-Fang Shrine: 11/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Pack Ambush"
+        ]
+      },
+      "RetainedCard": "Blood-Scent Hyena",
+      "DiscardedCards": [
+        "Hyena Pack Call",
+        "Iron Hyena Raider"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": [
+        "Blood-Scent Hyena"
+      ]
+    },
+    {
+      "TurnNumber": 11,
+      "PhaseNumber": 1,
+      "Player": 0,
+      "Main1Actions": [
+        "Main 1: resolved Bite the Roots (dealt 3 to Iron Hyena Den, broke it, gained 1 Memory)",
+        "Main 1: resolved Bite the Roots (dealt 3 to Rusted Moon Shrine)"
+      ],
+      "Attacks": [],
+      "Main2Actions": [],
+      "Start": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Black-Tooth Smith"
+        ],
+        "Battlefield": [
+          "Black-Tooth Smith",
+          "Bone Spear",
+          "Bone Spear",
+          "Fang Relic",
+          "Iron Hyena Champion [Relic:Fang Relic]",
+          "Pack Harrier"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 6/10",
+          "Bone-Fang Shrine: 10/10",
+          "Rusted Moon Shrine: 1/10"
+        ],
+        "Forgotten": [
+          "Pack Ambush",
+          "Pack Ambush"
+        ]
+      },
+      "End": {
+        "Offerings": 2,
+        "Memory": 1,
+        "Hand": [
+          "Fang Relic"
+        ],
+        "Battlefield": [
+          "Black-Tooth Smith",
+          "Bone Spear",
+          "Bone Spear",
+          "Fang Relic",
+          "Iron Hyena Champion [Relic:Fang Relic]",
+          "Pack Harrier"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 6/10",
+          "Bone-Fang Shrine: 10/10",
+          "Rusted Moon Shrine: 1/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Bite the Roots",
+          "Pack Ambush",
+          "Pack Ambush"
+        ]
+      },
+      "RetainedCard": "Fang Relic",
+      "DiscardedCards": [
+        "Black-Tooth Smith",
+        "Bone-Cracker Cub"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 12,
+      "PhaseNumber": 1,
+      "Player": 1,
+      "Main1Actions": [
+        "Main 1: resolved Pack Ambush (summoned Hyena Token and dealt 1 to Shrine)"
+      ],
+      "Attacks": [
+        {
+          "Attacker": "Black-Tooth Smith",
+          "Target": "Iron Hyena Den",
+          "Defender": "No blocker",
+          "PreparedTriggers": [],
+          "Calculations": [],
+          "DamageEvents": [
+            "Shrine Iron Hyena Den takes 2."
+          ],
+          "Result": "Black-Tooth Smith survives, Iron Hyena Den at 1/10"
+        },
+        {
+          "Attacker": "Blood-Scent Hyena",
+          "Target": "Iron Hyena Den",
+          "Defender": "Pack Harrier",
+          "PreparedTriggers": [],
+          "Calculations": [
+            "Blood-Scent Hyena becomes Wounded.",
+            "Ancestor of the First Pack deals 1 to blocked Shrine.",
+            "Bone Spear grants Pierce against damaged Shrine.",
+            "Pierce overflow deals 2 to Iron Hyena Den."
+          ],
+          "DamageEvents": [
+            "Pack Harrier deals 1 to Blood-Scent Hyena.",
+            "Blood-Scent Hyena deals 3 to Pack Harrier.",
+            "Shrine Iron Hyena Den takes 2."
+          ],
+          "Result": "Blood-Scent Hyena survives, Pack Harrier removed, Iron Hyena Den at 0/10"
+        }
+      ],
+      "Main2Actions": [],
+      "Start": {
+        "Offerings": 3,
+        "Memory": 0,
+        "Hand": [
+          "Blood-Scent Hyena"
+        ],
+        "Battlefield": [
+          "Black-Tooth Smith",
+          "Blood-Scent Hyena [Relic:Bone Spear]",
+          "Bone Spear",
+          "Bone-Cracker Cub",
+          "Pack Harrier",
+          "Pack Harrier"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": "Ancestor of the First Pack",
+        "ShrineDamage": [
+          "Iron Hyena Den: 10/10",
+          "Bone-Fang Shrine: 11/10",
+          "Rusted Moon Shrine: 3/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Pack Ambush"
+        ]
+      },
+      "End": {
+        "Offerings": 5,
+        "Memory": 0,
+        "Hand": [
+          "Black-Tooth Smith"
+        ],
+        "Battlefield": [
+          "Black-Tooth Smith",
+          "Blood-Scent Hyena [Wounded, Relic:Bone Spear]",
+          "Bone Spear",
+          "Bone-Cracker Cub",
+          "Pack Harrier",
+          "Pack Harrier"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": "Ancestor of the First Pack",
+        "ShrineDamage": [
+          "Iron Hyena Den: 10/10",
+          "Bone-Fang Shrine: 11/10",
+          "Rusted Moon Shrine: 3/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Pack Ambush",
+          "Pack Ambush"
+        ]
+      },
+      "RetainedCard": "Black-Tooth Smith",
+      "DiscardedCards": [
+        "Blood-Scent Hyena",
+        "Bone-Cracker Cub",
+        "Iron Hyena Raider"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 13,
+      "PhaseNumber": 1,
+      "Player": 0,
+      "Main1Actions": [
+        "Main 1: attached Fang Relic to Iron Hyena Champion"
+      ],
+      "Attacks": [
+        {
+          "Attacker": "Black-Tooth Smith",
+          "Target": "Rusted Moon Shrine",
+          "Defender": "No blocker",
+          "PreparedTriggers": [],
+          "Calculations": [],
+          "DamageEvents": [
+            "Shrine Rusted Moon Shrine takes 2."
+          ],
+          "Result": "Black-Tooth Smith survives, Rusted Moon Shrine at 5/10"
+        },
+        {
+          "Attacker": "Iron Hyena Champion",
+          "Target": "Rusted Moon Shrine",
+          "Defender": "Pack Harrier",
+          "PreparedTriggers": [],
+          "Calculations": [
+            "Iron Hyena Champion becomes Wounded."
+          ],
+          "DamageEvents": [
+            "Pack Harrier deals 1 to Iron Hyena Champion.",
+            "Iron Hyena Champion deals 6 to Pack Harrier."
+          ],
+          "Result": "Iron Hyena Champion survives, Pack Harrier removed, Rusted Moon Shrine at 4/10"
+        }
+      ],
+      "Main2Actions": [
+        "Main 2: played Blood-Scent Hyena",
+        "Main 2: played Blood-Scent Hyena"
+      ],
+      "Start": {
+        "Offerings": 2,
+        "Memory": 1,
+        "Hand": [
+          "Fang Relic"
+        ],
+        "Battlefield": [
+          "Black-Tooth Smith",
+          "Bone Spear",
+          "Bone Spear",
+          "Fang Relic",
+          "Iron Hyena Champion [Relic:Fang Relic]"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 11/10",
+          "Bone-Fang Shrine: 10/10",
+          "Rusted Moon Shrine: 2/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Bite the Roots",
+          "Pack Ambush",
+          "Pack Ambush"
+        ]
+      },
+      "End": {
+        "Offerings": 1,
+        "Memory": 1,
+        "Hand": [
+          "Blood-Scent Hyena"
+        ],
+        "Battlefield": [
+          "Black-Tooth Smith",
+          "Blood-Scent Hyena",
+          "Blood-Scent Hyena",
+          "Bone Spear",
+          "Bone Spear",
+          "Fang Relic",
+          "Fang Relic",
+          "Iron Hyena Champion [Wounded, Relic:Fang Relic]"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 11/10",
+          "Bone-Fang Shrine: 10/10",
+          "Rusted Moon Shrine: 2/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Bite the Roots",
+          "Pack Ambush",
+          "Pack Ambush"
+        ]
+      },
+      "RetainedCard": "Blood-Scent Hyena",
+      "DiscardedCards": [
+        "Hyena Pack Call"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 14,
+      "PhaseNumber": 1,
+      "Player": 1,
+      "Main1Actions": [
+        "Main 1: attached Fang Relic to Blood-Scent Hyena"
+      ],
+      "Attacks": [
+        {
+          "Attacker": "Black-Tooth Smith",
+          "Target": "Rusted Moon Shrine",
+          "Defender": "No blocker",
+          "PreparedTriggers": [],
+          "Calculations": [],
+          "DamageEvents": [
+            "Shrine Rusted Moon Shrine takes 2."
+          ],
+          "Result": "Black-Tooth Smith survives, Rusted Moon Shrine at 6/10"
+        },
+        {
+          "Attacker": "Blood-Scent Hyena",
+          "Target": "Rusted Moon Shrine",
+          "Defender": "No blocker",
+          "PreparedTriggers": [],
+          "Calculations": [
+            "Wounded reduces Blood-Scent Hyena from 3 to 2."
+          ],
+          "DamageEvents": [
+            "Shrine Rusted Moon Shrine takes 2."
+          ],
+          "Result": "Blood-Scent Hyena survives, Rusted Moon Shrine at 2/10"
+        },
+        {
+          "Attacker": "Pack Harrier",
+          "Target": "Rusted Moon Shrine",
+          "Defender": "No blocker",
+          "PreparedTriggers": [],
+          "Calculations": [],
+          "DamageEvents": [
+            "Shrine Rusted Moon Shrine takes 1."
+          ],
+          "Result": "Pack Harrier survives, Rusted Moon Shrine at 1/10"
+        },
+        {
+          "Attacker": "Bone-Cracker Cub",
+          "Target": "Rusted Moon Shrine",
+          "Defender": "No blocker",
+          "PreparedTriggers": [],
+          "Calculations": [],
+          "DamageEvents": [
+            "Shrine Rusted Moon Shrine takes 3."
+          ],
+          "Result": "Bone-Cracker Cub survives, Rusted Moon Shrine at 0/10"
+        }
+      ],
+      "Main2Actions": [],
+      "Start": {
+        "Offerings": 5,
+        "Memory": 0,
+        "Hand": [
+          "Black-Tooth Smith"
+        ],
+        "Battlefield": [
+          "Black-Tooth Smith",
+          "Blood-Scent Hyena [Wounded, Relic:Bone Spear]",
+          "Bone Spear",
+          "Bone-Cracker Cub",
+          "Pack Harrier"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": "Ancestor of the First Pack",
+        "ShrineDamage": [
+          "Iron Hyena Den: 10/10",
+          "Bone-Fang Shrine: 11/10",
+          "Rusted Moon Shrine: 6/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Pack Ambush",
+          "Pack Ambush"
+        ]
+      },
+      "End": {
+        "Offerings": 5,
+        "Memory": 0,
+        "Hand": [
+          "Black-Tooth Smith"
+        ],
+        "Battlefield": [
+          "Black-Tooth Smith",
+          "Blood-Scent Hyena [Relic:Fang Relic]",
+          "Bone Spear",
+          "Bone-Cracker Cub",
+          "Fang Relic",
+          "Pack Harrier"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": "Ancestor of the First Pack",
+        "ShrineDamage": [
+          "Iron Hyena Den: 10/10",
+          "Bone-Fang Shrine: 11/10",
+          "Rusted Moon Shrine: 6/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Pack Ambush",
+          "Pack Ambush"
+        ]
+      },
+      "RetainedCard": "Black-Tooth Smith",
+      "DiscardedCards": [
+        "Hyena Pack Call",
+        "Blood-Scent Hyena",
+        "Hyena Pack Call"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": [
+        "Blood-Scent Hyena"
+      ]
+    }
+  ],
+  "Red": {
+    "Name": "iron-hyena-pack-pressure",
+    "Shrines": [
+      {
+        "DefinitionId": "iron.shrine.den",
+        "Name": "Iron Hyena Den",
+        "Owner": 0,
+        "Vitality": 10,
+        "Damage": 11,
+        "IsBroken": true
+      },
+      {
+        "DefinitionId": "iron.shrine.bonefang",
+        "Name": "Bone-Fang Shrine",
+        "Owner": 0,
+        "Vitality": 10,
+        "Damage": 10,
+        "IsBroken": true
+      },
+      {
+        "DefinitionId": "iron.shrine.rustedmoon",
+        "Name": "Rusted Moon Shrine",
+        "Owner": 0,
+        "Vitality": 10,
+        "Damage": 12,
+        "IsBroken": true
+      }
+    ],
+    "Forgotten": [
+      "Pack Ambush",
+      "Pack Ambush",
+      "Bite the Roots",
+      "Bite the Roots"
+    ],
+    "Battlefield": [
+      "Bone Spear",
+      "Bone Spear",
+      "Iron Hyena Champion",
+      "Fang Relic",
+      "Black-Tooth Smith",
+      "Fang Relic",
+      "Blood-Scent Hyena",
+      "Blood-Scent Hyena"
+    ]
+  },
+  "Iron": {
+    "Name": "iron-hyena-pack-pressure",
+    "Shrines": [
+      {
+        "DefinitionId": "iron.shrine.den",
+        "Name": "Iron Hyena Den",
+        "Owner": 1,
+        "Vitality": 10,
+        "Damage": 10,
+        "IsBroken": true
+      },
+      {
+        "DefinitionId": "iron.shrine.bonefang",
+        "Name": "Bone-Fang Shrine",
+        "Owner": 1,
+        "Vitality": 10,
+        "Damage": 11,
+        "IsBroken": true
+      },
+      {
+        "DefinitionId": "iron.shrine.rustedmoon",
+        "Name": "Rusted Moon Shrine",
+        "Owner": 1,
+        "Vitality": 10,
+        "Damage": 6,
+        "IsBroken": false
+      }
+    ],
+    "Forgotten": [
+      "Pack Ambush",
+      "Bite the Roots",
+      "Pack Ambush"
+    ],
+    "Battlefield": [
+      "Blood-Scent Hyena",
+      "Bone Spear",
+      "Black-Tooth Smith",
+      "Pack Harrier",
+      "Bone-Cracker Cub",
+      "Fang Relic"
+    ]
+  }
+}

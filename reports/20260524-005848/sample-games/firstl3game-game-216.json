@@ -1,0 +1,3853 @@
+{
+  "GameId": "216",
+  "Seed": 216,
+  "Command": "dotnet run --project MythicDuel.Sim -- --mode batch --games 100 --seed 123 --out C:\\Users\\cedri\\source\\repos\\MythicDuelSim\\reports --bot-red red --bot-iron iron --deck-red red-hunter-evolution --deck-iron iron-snarecraft-control",
+  "Bots": {
+    "Red": "RedBaobabBot",
+    "Iron": "IronHyenaBot"
+  },
+  "Seats": {
+    "Seat1": {
+      "Seat": 0,
+      "Name": "red-hunter-evolution",
+      "Faction": "Red",
+      "DeckName": "red-hunter-evolution"
+    },
+    "Seat2": {
+      "Seat": 1,
+      "Name": "iron-snarecraft-control",
+      "Faction": "Iron",
+      "DeckName": "iron-snarecraft-control"
+    }
+  },
+  "Winner": "Red",
+  "EndReason": 1,
+  "Outcome": 1,
+  "AdjudicatedWinner": "",
+  "Metrics": {
+    "GameId": "game-216",
+    "Seed": 216,
+    "Winner": "red-hunter-evolution",
+    "Loser": "iron-snarecraft-control",
+    "Timeout": false,
+    "EndReason": "ShrineBreak",
+    "Outcome": "RedWin",
+    "AdjudicatedWinner": "",
+    "TimeoutDraws": 0,
+    "TimeoutAdjudicatedRed": 0,
+    "TimeoutAdjudicatedIron": 0,
+    "TurnCount": 17,
+    "PhaseCount": 5,
+    "FinalRedShrinesBroken": 0,
+    "FinalIronShrinesBroken": 3,
+    "FirstShrineDamageTurn": 3,
+    "FirstShrineBreakTurn": 9,
+    "FirstRedShrineBreakTurn": null,
+    "FirstIronShrineBreakTurn": 9,
+    "FirstAncestorAwakenedTurn": 8,
+    "FirstL2Turn": 9,
+    "FirstL3Turn": 14,
+    "RedL2Played": 1,
+    "RedL2EnteredBattlefield": 1,
+    "RedL2Evolved": 0,
+    "RedL2HardCast": 1,
+    "RedL3Played": 1,
+    "RedL3EnteredBattlefield": 1,
+    "RedL3Evolved": 1,
+    "RedL3HardCast": 0,
+    "RedL3Recalled": 0,
+    "RedL3PlayerWon": 1,
+    "IronL2Played": 1,
+    "IronL2EnteredBattlefield": 1,
+    "IronL2Evolved": 0,
+    "IronL2HardCast": 1,
+    "IronL3Played": 0,
+    "IronL3EnteredBattlefield": 0,
+    "IronL3Evolved": 0,
+    "IronL3HardCast": 0,
+    "IronL3Recalled": 0,
+    "IronL3PlayerWon": 0,
+    "FailedEvolutionAttemptsRed": 0,
+    "FailedEvolutionAttemptsIron": 0,
+    "LegalEvolveActionsGeneratedRed": 2,
+    "LegalEvolveActionsGeneratedIron": 0,
+    "LegalL2EvolveActionsGeneratedRed": 0,
+    "LegalL3EvolveActionsGeneratedRed": 2,
+    "LegalL2EvolveActionsGeneratedIron": 0,
+    "LegalL3EvolveActionsGeneratedIron": 0,
+    "EvolveActionsChosenRed": 2,
+    "EvolveActionsChosenIron": 0,
+    "EvolveWindowsRed": 2,
+    "EvolveWindowsIron": 0,
+    "TurnsWithLegalL2EvolutionRed": 0,
+    "TurnsWithLegalL3EvolutionRed": 2,
+    "TurnsWithLegalL2EvolutionIron": 0,
+    "TurnsWithLegalL3EvolutionIron": 0,
+    "HardCastChosenWhileLegalEvolveActionExistsRed": 0,
+    "HardCastChosenWhileLegalEvolveActionExistsIron": 0,
+    "HardCastChosenWhileEvolutionBaseExistsRed": 2,
+    "HardCastChosenWhileEvolutionBaseExistsIron": 0,
+    "LegalAwakenActionsGeneratedRed": 2,
+    "LegalAwakenActionsGeneratedIron": 0,
+    "AwakenActionsChosenRed": 1,
+    "AwakenActionsChosenIron": 0,
+    "AwakenActionsSkippedWhileLegalRed": 0,
+    "AwakenActionsSkippedWhileLegalIron": 0,
+    "AncestorSwitchesRed": 0,
+    "AncestorSwitchesIron": 0,
+    "MemorySpentOnAncestorsRed": 2,
+    "MemorySpentOnAncestorsIron": 0,
+    "FirstAwakenedAncestorRed": "red.ancestor.firsthunter",
+    "FirstAwakenedAncestorIron": "",
+    "TurnsWithAwakenedAncestorRed": 5,
+    "TurnsWithAwakenedAncestorIron": 0,
+    "FirstHunterBonusDamage": 6,
+    "GrandmotherHealingDone": 0,
+    "ChildDrawDiscardTriggers": 0,
+    "IronHyenaAncestorBonusDamage": 0,
+    "SmithOfferingDiscountSaved": 0,
+    "ToothMotherBonusDamage": 0,
+    "MemoryGeneratedRed": 5,
+    "MemorySpentRed": 4,
+    "MemoryEndRed": 1,
+    "MemoryGeneratedIron": 1,
+    "MemorySpentIron": 0,
+    "MemoryEndIron": 1,
+    "OfferingsSpentRed": 28,
+    "OfferingsSpentIron": 26,
+    "AttacksDeclaredRed": 8,
+    "AttacksDeclaredIron": 5,
+    "PackUnitsReadyAtCombatStartRed": 0,
+    "PackUnitsReadyAtCombatStartIron": 2,
+    "PackAssaultSlotsGeneratedRed": 0,
+    "PackAssaultSlotsGeneratedIron": 2,
+    "PackAssaultSlotsAvailableRed": 0,
+    "PackAssaultSlotsAvailableIron": 2,
+    "PackAssaultSlotsSkippedRed": 0,
+    "PackAssaultSlotsSkippedIron": 0,
+    "TurnsWithPackBonusRed": 0,
+    "TurnsWithPackBonusIron": 1,
+    "MaxAttacksAvailableThisCombatRed": 18,
+    "MaxAttacksAvailableThisCombatIron": 18,
+    "AttacksPreventedByAssaultLimitRed": 0,
+    "AttacksPreventedByAssaultLimitIron": 0,
+    "StandardAssaultSlotsSpentRed": 8,
+    "StandardAssaultSlotsSpentIron": 3,
+    "PackAssaultSlotsSpentRed": 0,
+    "PackAssaultSlotsSpentIron": 2,
+    "ShrineAttacksRed": 6,
+    "ShrineAttacksIron": 4,
+    "BlockedShrineAttacksRed": 0,
+    "BlockedShrineAttacksIron": 4,
+    "LegalBlockOptionsRed": 5,
+    "LegalBlockOptionsIron": 0,
+    "BlocksChosenRed": 4,
+    "BlocksChosenIron": 0,
+    "BlocksDeclinedRed": 0,
+    "BlocksDeclinedIron": 0,
+    "UnitsKilledRed": 8,
+    "UnitsKilledIron": 4,
+    "SpiritsDispersedRed": 0,
+    "SpiritsDispersedIron": 1,
+    "WoundedEventsRed": 3,
+    "WoundedEventsIron": 1,
+    "WoundedDamageReductionEventsRed": 3,
+    "WoundedDamageReductionEventsIron": 0,
+    "PierceOverflowEventsRed": 0,
+    "PierceOverflowEventsIron": 0,
+    "PierceOverflowDamageRed": 0,
+    "PierceOverflowDamageIron": 0,
+    "WeaponmasterPierceEvents": 0,
+    "SoulslayerPierceEvents": 0,
+    "LeopardHunterPierceEvents": 0,
+    "PreparedTacticsPreparedRed": 0,
+    "PreparedTacticsPreparedIron": 2,
+    "PreparedTacticsTriggeredRed": 0,
+    "PreparedTacticsTriggeredIron": 2,
+    "PreparedTacticsExpiredRed": 0,
+    "PreparedTacticsExpiredIron": 0,
+    "ForgottenCardsRed": 3,
+    "ForgottenCardsIron": 5,
+    "FadeCardsResolvedRed": 3,
+    "FadeCardsResolvedIron": 5,
+    "FadeTacticsTriggeredRed": 0,
+    "FadeTacticsTriggeredIron": 0,
+    "FadeTacticsExpiredRed": 0,
+    "FadeTacticsExpiredIron": 0,
+    "CardsDrawnRed": 37,
+    "CardsDrawnIron": 33,
+    "CardsRetainedRed": 9,
+    "CardsRetainedIron": 8,
+    "CardsDiscardedRed": 22,
+    "CardsDiscardedIron": 18,
+    "DeckReshufflesRed": 1,
+    "DeckReshufflesIron": 1,
+    "ForgottenCardsExcludedFromReshuffleRed": 3,
+    "ForgottenCardsExcludedFromReshuffleIron": 3,
+    "PresenceUsedRed": 5,
+    "PresenceUsedIron": 0,
+    "PresenceLimitRed": 5,
+    "PresenceLimitIron": 5,
+    "PhaseBoundaryDoubleTurnsRed": 2,
+    "PhaseBoundaryDoubleTurnsIron": 2,
+    "ShrinesBrokenOnPhaseBoundaryRed": 0,
+    "ShrinesBrokenOnPhaseBoundaryIron": 0,
+    "EvolutionsOnPhaseBoundaryRed": 0,
+    "EvolutionsOnPhaseBoundaryIron": 0
+  },
+  "Events": [
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Young Hunter drawn from starting hand.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Bite the Roots drawn from starting hand.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Deep River Spirit drawn from starting hand.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Iron Hyena Raider drawn from starting hand.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Hunter\u2019s Call drawn from starting hand.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Black-Tooth Smith drawn from starting hand.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "River Hunter drawn from starting hand.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Iron Snare drawn from starting hand.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Baobab Guardian drawn from starting hand.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Hyena Pack Call drawn from starting hand.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 0,
+      "Message": "Turn 1 started for red-hunter-evolution.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 1 Offerings on Young Hunter.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 3,
+      "Message": "Young Hunter entered the battlefield.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 20,
+      "Message": "Deep River Spirit retained.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Hunter\u2019s Call discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 21,
+      "Message": "River Hunter discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Baobab Guardian discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 1,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 1,
+      "Message": "Turn 1 ended for red-hunter-evolution.",
+      "Data": null
+    },
+    {
+      "Turn": 2,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 0,
+      "Message": "Turn 2 started for iron-snarecraft-control.",
+      "Data": null
+    },
+    {
+      "Turn": 2,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 19,
+      "Message": "Spent 1 Offerings on Iron Snare.",
+      "Data": null
+    },
+    {
+      "Turn": 2,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 12,
+      "Message": "Iron Snare was prepared.",
+      "Data": null
+    },
+    {
+      "Turn": 2,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 20,
+      "Message": "Bite the Roots retained.",
+      "Data": null
+    },
+    {
+      "Turn": 2,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Iron Hyena Raider discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 2,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Black-Tooth Smith discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 2,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Hyena Pack Call discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 2,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 1,
+      "Message": "Turn 2 ended for iron-snarecraft-control.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 0,
+      "Message": "Turn 3 started for red-hunter-evolution.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Esprit du L\u00E9opard drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Pale River Spirit drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "River Hunter drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Pale River Spirit drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 2 Offerings on River Hunter.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 3,
+      "Message": "River Hunter entered the battlefield.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 4,
+      "Message": "Young Hunter attacks Bone-Fang Shrine.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 13,
+      "Message": "Iron Snare triggered on big attacker.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 11,
+      "Message": "Iron Snare moved to Forgotten (prepared tactic triggered).",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 8,
+      "Message": "Bone-Fang Shrine takes 3 damage.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 20,
+      "Message": "Esprit du L\u00E9opard retained.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Deep River Spirit discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Pale River Spirit discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Pale River Spirit discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 3,
+      "Phase": 1,
+      "Player": 0,
+      "Type": 1,
+      "Message": "Turn 3 ended for red-hunter-evolution.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 0,
+      "Message": "Turn 4 started for iron-snarecraft-control.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Iron Hyena Underworld drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "False Opening drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Bone Spear drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Iron Snare drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 19,
+      "Message": "Spent 2 Offerings on Bite the Roots.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 3,
+      "Message": "Bite the Roots resolved.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 8,
+      "Message": "Bite the Roots deals 3 to Hunter\u2019s Root-Stone.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 11,
+      "Message": "Bite the Roots moved to Forgotten (rite resolved).",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 20,
+      "Message": "Bone Spear retained.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Iron Hyena Underworld discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 21,
+      "Message": "False Opening discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Iron Snare discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 4,
+      "Phase": 1,
+      "Player": 1,
+      "Type": 1,
+      "Message": "Turn 4 ended for iron-snarecraft-control.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 0,
+      "Message": "Turn 5 started for iron-snarecraft-control.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Black-Tooth Smith drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 2,
+      "Message": "False Opening drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Bone-Cracker Cub drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Hyena Pack Call drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 19,
+      "Message": "Spent 1 Offerings on Bone-Cracker Cub.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 3,
+      "Message": "Bone-Cracker Cub entered the battlefield.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 20,
+      "Message": "Bone Spear retained.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Black-Tooth Smith discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 21,
+      "Message": "False Opening discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Hyena Pack Call discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 5,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 1,
+      "Message": "Turn 5 ended for iron-snarecraft-control.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 0,
+      "Message": "Turn 6 started for red-hunter-evolution.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Leopard Hunter drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Deep River Spirit drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Offering of Milk and Ash drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Leopard Hunter drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 1 Offerings on Offering of Milk and Ash.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 3,
+      "Message": "Offering of Milk and Ash resolved.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 10,
+      "Message": "Hunter\u2019s Root-Stone restored by 3 (Offering of Milk and Ash.).",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 11,
+      "Message": "Offering of Milk and Ash moved to Forgotten (rite resolved).",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 4,
+      "Message": "Young Hunter attacks Bone-Cracker Cub.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 5,
+      "Message": "Bone-Cracker Cub deals 2 to Young Hunter.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 5,
+      "Message": "Young Hunter deals 2 to Bone-Cracker Cub.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 6,
+      "Message": "Bone-Cracker Cub died in combat.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 6,
+      "Message": "Young Hunter died in combat.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 17,
+      "Message": "Gained 1 Memory (Shrine of the Red Baobab triggered.).",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 20,
+      "Message": "Leopard Hunter retained.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Esprit du L\u00E9opard discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Deep River Spirit discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Leopard Hunter discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 6,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 1,
+      "Message": "Turn 6 ended for red-hunter-evolution.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 0,
+      "Message": "Turn 7 started for iron-snarecraft-control.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Bite the Roots drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Bone Spear drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Fang Relic drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Iron Hyena Raider drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 19,
+      "Message": "Spent 2 Offerings on Bite the Roots.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 3,
+      "Message": "Bite the Roots resolved.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 8,
+      "Message": "Bite the Roots deals 3 to Hunter\u2019s Root-Stone.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 11,
+      "Message": "Bite the Roots moved to Forgotten (rite resolved).",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 19,
+      "Message": "Spent 2 Offerings on Iron Hyena Raider.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 3,
+      "Message": "Iron Hyena Raider entered the battlefield.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 20,
+      "Message": "Bone Spear retained.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Bone Spear discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Fang Relic discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 7,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 1,
+      "Message": "Turn 7 ended for iron-snarecraft-control.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 0,
+      "Message": "Turn 8 started for red-hunter-evolution.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Young Hunter drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Esprit du L\u00E9opard drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Spear of First Dawn drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Young Hunter drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 1 Offerings on Young Hunter.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 3,
+      "Message": "Young Hunter entered the battlefield.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 1 Offerings on Young Hunter.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 3,
+      "Message": "Young Hunter entered the battlefield.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 4,
+      "Message": "River Hunter attacks Iron Hyena Raider.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 5,
+      "Message": "Iron Hyena Raider deals 3 to River Hunter.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 5,
+      "Message": "River Hunter deals 3 to Iron Hyena Raider.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 2,
+      "Player": 1,
+      "Type": 6,
+      "Message": "Iron Hyena Raider died in combat.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 17,
+      "Message": "Gained 1 Memory (River Hunter destroyed an enemy.).",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 6,
+      "Message": "River Hunter died in combat.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 17,
+      "Message": "Gained 1 Memory (Shrine of the Red Baobab triggered.).",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 18,
+      "Message": "Spent 2 Memory on Awakened First Hunter.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 16,
+      "Message": "First Hunter awakened.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 10,
+      "Message": "Hunter\u2019s Root-Stone restored by 1 (Moonlit Roots restored a Shrine.).",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 20,
+      "Message": "Leopard Hunter retained.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Esprit du L\u00E9opard discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Spear of First Dawn discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 8,
+      "Phase": 2,
+      "Player": 0,
+      "Type": 1,
+      "Message": "Turn 8 ended for red-hunter-evolution.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 0,
+      "Message": "Turn 9 started for red-hunter-evolution.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Hunter\u2019s Call drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Root-Woven Guard drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Ritual of Red Moon drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Root-Woven Guard drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 5 Offerings on Leopard Hunter.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 3,
+      "Message": "Leopard Hunter entered the battlefield.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 4,
+      "Message": "Young Hunter attacks Bone-Fang Shrine.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 8,
+      "Message": "Bone-Fang Shrine takes 4 damage.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 4,
+      "Message": "Young Hunter attacks Bone-Fang Shrine.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 8,
+      "Message": "Bone-Fang Shrine takes 4 damage.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 9,
+      "Message": "Bone-Fang Shrine is broken.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 20,
+      "Message": "Ritual of Red Moon retained.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Hunter\u2019s Call discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Root-Woven Guard discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Root-Woven Guard discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 9,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 1,
+      "Message": "Turn 9 ended for red-hunter-evolution.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 0,
+      "Message": "Turn 10 started for iron-snarecraft-control.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Iron Hyena Champion drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Rust Hyena Spirit drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Iron Hyena Champion drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Fang Relic drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 19,
+      "Message": "Spent 5 Offerings on Iron Hyena Champion.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 3,
+      "Message": "Iron Hyena Champion entered the battlefield.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 20,
+      "Message": "Bone Spear retained.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Rust Hyena Spirit discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Iron Hyena Champion discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Fang Relic discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 10,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 1,
+      "Message": "Turn 10 ended for iron-snarecraft-control.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 0,
+      "Message": "Turn 11 started for red-hunter-evolution.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Kuma Who Wounded the Sun drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Baobab Guardian drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Offering of Milk and Ash drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Ritual of Red Moon drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 2 Offerings on Ritual of Red Moon.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 3,
+      "Message": "Ritual of Red Moon resolved.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 5,
+      "Message": "Ritual of Red Moon deals 2 to Iron Hyena Champion.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 11,
+      "Message": "Ritual of Red Moon moved to Forgotten (rite resolved).",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 2 Offerings on Ritual of Red Moon.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 3,
+      "Message": "Ritual of Red Moon resolved.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 5,
+      "Message": "Ritual of Red Moon deals 2 to Iron Hyena Champion.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 6,
+      "Message": "Iron Hyena Champion died from Ritual of Red Moon.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 17,
+      "Message": "Gained 1 Memory (Ritual of Red Moon gained Memory.).",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 11,
+      "Message": "Ritual of Red Moon moved to Forgotten (rite resolved).",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 4,
+      "Message": "Leopard Hunter attacks Iron Hyena Den.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 8,
+      "Message": "Iron Hyena Den takes 6 damage.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 20,
+      "Message": "Kuma Who Wounded the Sun retained.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Baobab Guardian discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Offering of Milk and Ash discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 11,
+      "Phase": 3,
+      "Player": 0,
+      "Type": 1,
+      "Message": "Turn 11 ended for red-hunter-evolution.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 0,
+      "Message": "Turn 12 started for iron-snarecraft-control.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Bone-Cracker Cub drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Rust Hyena Spirit drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Iron Guard drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Bone-Cracker Cub drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 19,
+      "Message": "Spent 1 Offerings on Bone-Cracker Cub.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 3,
+      "Message": "Bone-Cracker Cub entered the battlefield.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 19,
+      "Message": "Spent 1 Offerings on Bone-Cracker Cub.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 3,
+      "Message": "Bone-Cracker Cub entered the battlefield.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 19,
+      "Message": "Spent 2 Offerings on Rust Hyena Spirit.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 3,
+      "Message": "Rust Hyena Spirit entered the battlefield.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 20,
+      "Message": "Bone Spear retained.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Iron Guard discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 12,
+      "Phase": 3,
+      "Player": 1,
+      "Type": 1,
+      "Message": "Turn 12 ended for iron-snarecraft-control.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 0,
+      "Message": "Turn 13 started for iron-snarecraft-control.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Black-Tooth Smith drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Iron Guard drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Bone-Cracker Cub drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Iron Hyena Raider drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 19,
+      "Message": "Spent 1 Offerings on Bone Spear.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 3,
+      "Message": "Bone Spear attached to Bone-Cracker Cub.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 4,
+      "Message": "Rust Hyena Spirit attacks Leopard Hunter.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 5,
+      "Message": "Leopard Hunter deals 4 to Rust Hyena Spirit.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 5,
+      "Message": "Rust Hyena Spirit deals 2 to Leopard Hunter.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 17,
+      "Message": "Gained 1 Memory (Rust Hyena Spirit dispersed.).",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 7,
+      "Message": "Rust Hyena Spirit dispersed because Rust Hyena Spirit died in combat..",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 8,
+      "Message": "Rust Hyena Spirit deals 1 to Hunter\u2019s Root-Stone on disperse.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 4,
+      "Message": "Bone-Cracker Cub attacks Hunter\u2019s Root-Stone.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 5,
+      "Message": "Young Hunter deals 2 to Bone-Cracker Cub.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 5,
+      "Message": "Bone-Cracker Cub deals 4 to Young Hunter.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 6,
+      "Message": "Young Hunter died in combat.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 17,
+      "Message": "Gained 1 Memory (Shrine of the Red Baobab triggered.).",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 6,
+      "Message": "Bone-Cracker Cub died in combat.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 4,
+      "Message": "Bone-Cracker Cub attacks Hunter\u2019s Root-Stone.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 5,
+      "Message": "Young Hunter deals 2 to Bone-Cracker Cub.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 5,
+      "Message": "Bone-Cracker Cub deals 3 to Young Hunter.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 6,
+      "Message": "Young Hunter died in combat.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 6,
+      "Message": "Bone-Cracker Cub died in combat.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 19,
+      "Message": "Spent 3 Offerings on Black-Tooth Smith.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 3,
+      "Message": "Black-Tooth Smith entered the battlefield.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 19,
+      "Message": "Spent 2 Offerings on Iron Guard.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 3,
+      "Message": "Iron Guard entered the battlefield.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 20,
+      "Message": "Bone-Cracker Cub retained.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Iron Hyena Raider discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 13,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 1,
+      "Message": "Turn 13 ended for iron-snarecraft-control.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 0,
+      "Message": "Turn 14 started for red-hunter-evolution.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Spear of First Dawn drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 2,
+      "Message": "River Hunter drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Ritual of Red Moon drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 22,
+      "Message": "red-hunter-evolution reshuffled discard into deck.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Baobab Guardian drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 4 Offerings on Kuma Who Wounded the Sun.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 18,
+      "Message": "Spent 2 Memory on Kuma Who Wounded the Sun.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 15,
+      "Message": "Leopard Hunter evolved into Kuma Who Wounded the Sun.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 8,
+      "Message": "Kuma deals 3 damage to Iron Hyena Den on evolve.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 2 Offerings on River Hunter.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 3,
+      "Message": "River Hunter entered the battlefield.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 10,
+      "Message": "Hunter\u2019s Root-Stone restored by 1 (Moonlit Roots restored a Shrine.).",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 20,
+      "Message": "Spear of First Dawn retained.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Ritual of Red Moon discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Baobab Guardian discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 14,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 1,
+      "Message": "Turn 14 ended for red-hunter-evolution.",
+      "Data": null
+    },
+    {
+      "Turn": 15,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 0,
+      "Message": "Turn 15 started for iron-snarecraft-control.",
+      "Data": null
+    },
+    {
+      "Turn": 15,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Bite the Roots drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 15,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 22,
+      "Message": "iron-snarecraft-control reshuffled discard into deck.",
+      "Data": null
+    },
+    {
+      "Turn": 15,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Black-Tooth Smith drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 15,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Hyena Pack Call drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 15,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 2,
+      "Message": "Iron Snare drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 15,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 19,
+      "Message": "Spent 2 Offerings on Bite the Roots.",
+      "Data": null
+    },
+    {
+      "Turn": 15,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 3,
+      "Message": "Bite the Roots resolved.",
+      "Data": null
+    },
+    {
+      "Turn": 15,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 8,
+      "Message": "Bite the Roots deals 3 to Hunter\u2019s Root-Stone.",
+      "Data": null
+    },
+    {
+      "Turn": 15,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 11,
+      "Message": "Bite the Roots moved to Forgotten (rite resolved).",
+      "Data": null
+    },
+    {
+      "Turn": 15,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 19,
+      "Message": "Spent 1 Offerings on Iron Snare.",
+      "Data": null
+    },
+    {
+      "Turn": 15,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 12,
+      "Message": "Iron Snare was prepared.",
+      "Data": null
+    },
+    {
+      "Turn": 15,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 4,
+      "Message": "Black-Tooth Smith attacks Hunter\u2019s Root-Stone.",
+      "Data": null
+    },
+    {
+      "Turn": 15,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 5,
+      "Message": "Kuma Who Wounded the Sun deals 6 to Black-Tooth Smith.",
+      "Data": null
+    },
+    {
+      "Turn": 15,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 5,
+      "Message": "Black-Tooth Smith deals 2 to Kuma Who Wounded the Sun.",
+      "Data": null
+    },
+    {
+      "Turn": 15,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 6,
+      "Message": "Black-Tooth Smith died in combat.",
+      "Data": null
+    },
+    {
+      "Turn": 15,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 4,
+      "Message": "Iron Guard attacks Hunter\u2019s Root-Stone.",
+      "Data": null
+    },
+    {
+      "Turn": 15,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 5,
+      "Message": "Kuma Who Wounded the Sun deals 4 to Iron Guard.",
+      "Data": null
+    },
+    {
+      "Turn": 15,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 5,
+      "Message": "Iron Guard deals 2 to Kuma Who Wounded the Sun.",
+      "Data": null
+    },
+    {
+      "Turn": 15,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 6,
+      "Message": "Iron Guard died in combat.",
+      "Data": null
+    },
+    {
+      "Turn": 15,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 20,
+      "Message": "Bone-Cracker Cub retained.",
+      "Data": null
+    },
+    {
+      "Turn": 15,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Black-Tooth Smith discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 15,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 21,
+      "Message": "Hyena Pack Call discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 15,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 1,
+      "Message": "Turn 15 ended for iron-snarecraft-control.",
+      "Data": null
+    },
+    {
+      "Turn": 16,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 0,
+      "Message": "Turn 16 started for red-hunter-evolution.",
+      "Data": null
+    },
+    {
+      "Turn": 16,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 2,
+      "Message": "River Hunter drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 16,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Deep River Spirit drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 16,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Offering of Milk and Ash drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 16,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Esprit du L\u00E9opard drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 16,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 2 Offerings on River Hunter.",
+      "Data": null
+    },
+    {
+      "Turn": 16,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 3,
+      "Message": "River Hunter entered the battlefield.",
+      "Data": null
+    },
+    {
+      "Turn": 16,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 2 Offerings on Spear of First Dawn.",
+      "Data": null
+    },
+    {
+      "Turn": 16,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 3,
+      "Message": "Spear of First Dawn attached to Kuma Who Wounded the Sun.",
+      "Data": null
+    },
+    {
+      "Turn": 16,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 4,
+      "Message": "Kuma Who Wounded the Sun attacks Iron Hyena Den.",
+      "Data": null
+    },
+    {
+      "Turn": 16,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 13,
+      "Message": "Iron Snare triggered on big attacker.",
+      "Data": null
+    },
+    {
+      "Turn": 16,
+      "Phase": 4,
+      "Player": 1,
+      "Type": 11,
+      "Message": "Iron Snare moved to Forgotten (prepared tactic triggered).",
+      "Data": null
+    },
+    {
+      "Turn": 16,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 8,
+      "Message": "Iron Hyena Den takes 8 damage.",
+      "Data": null
+    },
+    {
+      "Turn": 16,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 9,
+      "Message": "Iron Hyena Den is broken.",
+      "Data": null
+    },
+    {
+      "Turn": 16,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 20,
+      "Message": "Esprit du L\u00E9opard retained.",
+      "Data": null
+    },
+    {
+      "Turn": 16,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Deep River Spirit discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 16,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Offering of Milk and Ash discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 16,
+      "Phase": 4,
+      "Player": 0,
+      "Type": 1,
+      "Message": "Turn 16 ended for red-hunter-evolution.",
+      "Data": null
+    },
+    {
+      "Turn": 17,
+      "Phase": 5,
+      "Player": 0,
+      "Type": 0,
+      "Message": "Turn 17 started for red-hunter-evolution.",
+      "Data": null
+    },
+    {
+      "Turn": 17,
+      "Phase": 5,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Pale River Spirit drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 17,
+      "Phase": 5,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Root-Woven Guard drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 17,
+      "Phase": 5,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Spear of First Dawn drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 17,
+      "Phase": 5,
+      "Player": 0,
+      "Type": 2,
+      "Message": "Young Hunter drawn from draw phase.",
+      "Data": null
+    },
+    {
+      "Turn": 17,
+      "Phase": 5,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 1 Offerings on Young Hunter.",
+      "Data": null
+    },
+    {
+      "Turn": 17,
+      "Phase": 5,
+      "Player": 0,
+      "Type": 3,
+      "Message": "Young Hunter entered the battlefield.",
+      "Data": null
+    },
+    {
+      "Turn": 17,
+      "Phase": 5,
+      "Player": 0,
+      "Type": 19,
+      "Message": "Spent 2 Offerings on Spear of First Dawn.",
+      "Data": null
+    },
+    {
+      "Turn": 17,
+      "Phase": 5,
+      "Player": 0,
+      "Type": 3,
+      "Message": "Spear of First Dawn attached to Kuma Who Wounded the Sun.",
+      "Data": null
+    },
+    {
+      "Turn": 17,
+      "Phase": 5,
+      "Player": 0,
+      "Type": 4,
+      "Message": "Kuma Who Wounded the Sun attacks Rusted Moon Shrine.",
+      "Data": null
+    },
+    {
+      "Turn": 17,
+      "Phase": 5,
+      "Player": 0,
+      "Type": 8,
+      "Message": "Rusted Moon Shrine takes 11 damage.",
+      "Data": null
+    },
+    {
+      "Turn": 17,
+      "Phase": 5,
+      "Player": 0,
+      "Type": 9,
+      "Message": "Rusted Moon Shrine is broken.",
+      "Data": null
+    },
+    {
+      "Turn": 17,
+      "Phase": 5,
+      "Player": 0,
+      "Type": 20,
+      "Message": "Esprit du L\u00E9opard retained.",
+      "Data": null
+    },
+    {
+      "Turn": 17,
+      "Phase": 5,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Pale River Spirit discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 17,
+      "Phase": 5,
+      "Player": 0,
+      "Type": 21,
+      "Message": "Root-Woven Guard discarded at end step.",
+      "Data": null
+    },
+    {
+      "Turn": 17,
+      "Phase": 5,
+      "Player": 0,
+      "Type": 1,
+      "Message": "Turn 17 ended for red-hunter-evolution.",
+      "Data": null
+    }
+  ],
+  "Turns": [
+    {
+      "TurnNumber": 1,
+      "PhaseNumber": 1,
+      "Player": 0,
+      "Main1Actions": [
+        "Main 1: played Young Hunter"
+      ],
+      "Attacks": [],
+      "Main2Actions": [],
+      "Start": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Baobab Guardian",
+          "Deep River Spirit",
+          "Hunter\u2019s Call",
+          "River Hunter",
+          "Young Hunter"
+        ],
+        "Battlefield": [],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Shrine of the Red Baobab: 0/10",
+          "Hunter\u2019s Root-Stone: 0/10",
+          "Moonlit Roots: 0/10"
+        ],
+        "Forgotten": []
+      },
+      "End": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Deep River Spirit"
+        ],
+        "Battlefield": [
+          "Young Hunter"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Shrine of the Red Baobab: 0/10",
+          "Hunter\u2019s Root-Stone: 0/10",
+          "Moonlit Roots: 0/10"
+        ],
+        "Forgotten": []
+      },
+      "RetainedCard": "Deep River Spirit",
+      "DiscardedCards": [
+        "Hunter\u2019s Call",
+        "River Hunter",
+        "Baobab Guardian"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 2,
+      "PhaseNumber": 1,
+      "Player": 1,
+      "Main1Actions": [
+        "Main 1: prepared Iron Snare"
+      ],
+      "Attacks": [],
+      "Main2Actions": [],
+      "Start": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Bite the Roots",
+          "Black-Tooth Smith",
+          "Hyena Pack Call",
+          "Iron Hyena Raider",
+          "Iron Snare"
+        ],
+        "Battlefield": [],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 0/10",
+          "Bone-Fang Shrine: 0/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": []
+      },
+      "End": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Bite the Roots"
+        ],
+        "Battlefield": [],
+        "PreparedTactic": "Iron Snare",
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 0/10",
+          "Bone-Fang Shrine: 0/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": []
+      },
+      "RetainedCard": "Bite the Roots",
+      "DiscardedCards": [
+        "Iron Hyena Raider",
+        "Black-Tooth Smith",
+        "Hyena Pack Call"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 3,
+      "PhaseNumber": 1,
+      "Player": 0,
+      "Main1Actions": [
+        "Main 1: played River Hunter"
+      ],
+      "Attacks": [
+        {
+          "Attacker": "Young Hunter",
+          "Target": "Bone-Fang Shrine",
+          "Defender": "No blocker",
+          "PreparedTriggers": [
+            "Iron Snare"
+          ],
+          "Calculations": [],
+          "DamageEvents": [
+            "Shrine Bone-Fang Shrine takes 3."
+          ],
+          "Result": "Young Hunter survives, Bone-Fang Shrine at 7/10"
+        }
+      ],
+      "Main2Actions": [],
+      "Start": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Deep River Spirit"
+        ],
+        "Battlefield": [
+          "Young Hunter"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Shrine of the Red Baobab: 0/10",
+          "Hunter\u2019s Root-Stone: 0/10",
+          "Moonlit Roots: 0/10"
+        ],
+        "Forgotten": []
+      },
+      "End": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Esprit du L\u00E9opard"
+        ],
+        "Battlefield": [
+          "River Hunter",
+          "Young Hunter"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Shrine of the Red Baobab: 0/10",
+          "Hunter\u2019s Root-Stone: 0/10",
+          "Moonlit Roots: 0/10"
+        ],
+        "Forgotten": []
+      },
+      "RetainedCard": "Esprit du L\u00E9opard",
+      "DiscardedCards": [
+        "Deep River Spirit",
+        "Pale River Spirit",
+        "Pale River Spirit"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 4,
+      "PhaseNumber": 1,
+      "Player": 1,
+      "Main1Actions": [
+        "Main 1: resolved Bite the Roots (dealt 3 to Hunter\u2019s Root-Stone)"
+      ],
+      "Attacks": [],
+      "Main2Actions": [],
+      "Start": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Bite the Roots"
+        ],
+        "Battlefield": [],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 0/10",
+          "Bone-Fang Shrine: 3/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Iron Snare"
+        ]
+      },
+      "End": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Bone Spear"
+        ],
+        "Battlefield": [],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 0/10",
+          "Bone-Fang Shrine: 3/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Iron Snare"
+        ]
+      },
+      "RetainedCard": "Bone Spear",
+      "DiscardedCards": [
+        "Iron Hyena Underworld",
+        "False Opening",
+        "Iron Snare"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 5,
+      "PhaseNumber": 2,
+      "Player": 1,
+      "Main1Actions": [
+        "Main 1: played Bone-Cracker Cub"
+      ],
+      "Attacks": [],
+      "Main2Actions": [],
+      "Start": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Bone Spear"
+        ],
+        "Battlefield": [],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 0/10",
+          "Bone-Fang Shrine: 3/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Iron Snare"
+        ]
+      },
+      "End": {
+        "Offerings": 2,
+        "Memory": 0,
+        "Hand": [
+          "Bone Spear"
+        ],
+        "Battlefield": [
+          "Bone-Cracker Cub"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 0/10",
+          "Bone-Fang Shrine: 3/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Iron Snare"
+        ]
+      },
+      "RetainedCard": "Bone Spear",
+      "DiscardedCards": [
+        "Black-Tooth Smith",
+        "False Opening",
+        "Hyena Pack Call"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 6,
+      "PhaseNumber": 2,
+      "Player": 0,
+      "Main1Actions": [
+        "Main 1: resolved Offering of Milk and Ash (restored 3 to Hunter\u2019s Root-Stone)"
+      ],
+      "Attacks": [
+        {
+          "Attacker": "Young Hunter",
+          "Target": "Bone-Cracker Cub",
+          "Defender": "Bone-Cracker Cub",
+          "PreparedTriggers": [],
+          "Calculations": [],
+          "DamageEvents": [
+            "Bone-Cracker Cub deals 2 to Young Hunter.",
+            "Young Hunter deals 2 to Bone-Cracker Cub."
+          ],
+          "Result": "Young Hunter left battle, Bone-Cracker Cub removed"
+        }
+      ],
+      "Main2Actions": [],
+      "Start": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Esprit du L\u00E9opard"
+        ],
+        "Battlefield": [
+          "River Hunter",
+          "Young Hunter"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Shrine of the Red Baobab: 0/10",
+          "Hunter\u2019s Root-Stone: 3/10",
+          "Moonlit Roots: 0/10"
+        ],
+        "Forgotten": []
+      },
+      "End": {
+        "Offerings": 2,
+        "Memory": 1,
+        "Hand": [
+          "Leopard Hunter"
+        ],
+        "Battlefield": [
+          "River Hunter"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Shrine of the Red Baobab: 0/10",
+          "Hunter\u2019s Root-Stone: 0/10",
+          "Moonlit Roots: 0/10"
+        ],
+        "Forgotten": [
+          "Offering of Milk and Ash"
+        ]
+      },
+      "RetainedCard": "Leopard Hunter",
+      "DiscardedCards": [
+        "Esprit du L\u00E9opard",
+        "Deep River Spirit",
+        "Leopard Hunter"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 7,
+      "PhaseNumber": 2,
+      "Player": 1,
+      "Main1Actions": [
+        "Main 1: resolved Bite the Roots (dealt 3 to Hunter\u2019s Root-Stone)",
+        "Main 1: played Iron Hyena Raider"
+      ],
+      "Attacks": [],
+      "Main2Actions": [],
+      "Start": {
+        "Offerings": 2,
+        "Memory": 0,
+        "Hand": [
+          "Bone Spear"
+        ],
+        "Battlefield": [],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 0/10",
+          "Bone-Fang Shrine: 3/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Iron Snare"
+        ]
+      },
+      "End": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Bone Spear"
+        ],
+        "Battlefield": [
+          "Iron Hyena Raider"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 0/10",
+          "Bone-Fang Shrine: 3/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Bite the Roots",
+          "Iron Snare"
+        ]
+      },
+      "RetainedCard": "Bone Spear",
+      "DiscardedCards": [
+        "Bone Spear",
+        "Fang Relic"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 8,
+      "PhaseNumber": 2,
+      "Player": 0,
+      "Main1Actions": [
+        "Main 1: played Young Hunter",
+        "Main 1: played Young Hunter"
+      ],
+      "Attacks": [
+        {
+          "Attacker": "River Hunter",
+          "Target": "Iron Hyena Raider",
+          "Defender": "Iron Hyena Raider",
+          "PreparedTriggers": [],
+          "Calculations": [],
+          "DamageEvents": [
+            "Iron Hyena Raider deals 3 to River Hunter.",
+            "River Hunter deals 3 to Iron Hyena Raider."
+          ],
+          "Result": "River Hunter left battle, Iron Hyena Raider removed"
+        }
+      ],
+      "Main2Actions": [
+        "Main 2: awakened First Hunter"
+      ],
+      "Start": {
+        "Offerings": 2,
+        "Memory": 1,
+        "Hand": [
+          "Leopard Hunter"
+        ],
+        "Battlefield": [
+          "River Hunter"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Shrine of the Red Baobab: 0/10",
+          "Hunter\u2019s Root-Stone: 3/10",
+          "Moonlit Roots: 0/10"
+        ],
+        "Forgotten": [
+          "Offering of Milk and Ash"
+        ]
+      },
+      "End": {
+        "Offerings": 2,
+        "Memory": 1,
+        "Hand": [
+          "Leopard Hunter"
+        ],
+        "Battlefield": [
+          "Young Hunter",
+          "Young Hunter"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": "First Hunter",
+        "ShrineDamage": [
+          "Shrine of the Red Baobab: 0/10",
+          "Hunter\u2019s Root-Stone: 2/10",
+          "Moonlit Roots: 0/10"
+        ],
+        "Forgotten": [
+          "Offering of Milk and Ash"
+        ]
+      },
+      "RetainedCard": "Leopard Hunter",
+      "DiscardedCards": [
+        "Esprit du L\u00E9opard",
+        "Spear of First Dawn"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 9,
+      "PhaseNumber": 3,
+      "Player": 0,
+      "Main1Actions": [
+        "Main 1: played Leopard Hunter"
+      ],
+      "Attacks": [
+        {
+          "Attacker": "Young Hunter",
+          "Target": "Bone-Fang Shrine",
+          "Defender": "No blocker",
+          "PreparedTriggers": [],
+          "Calculations": [],
+          "DamageEvents": [
+            "Shrine Bone-Fang Shrine takes 4."
+          ],
+          "Result": "Young Hunter survives, Bone-Fang Shrine at 3/10"
+        },
+        {
+          "Attacker": "Young Hunter",
+          "Target": "Bone-Fang Shrine",
+          "Defender": "No blocker",
+          "PreparedTriggers": [],
+          "Calculations": [],
+          "DamageEvents": [
+            "Shrine Bone-Fang Shrine takes 4."
+          ],
+          "Result": "Young Hunter survives, Bone-Fang Shrine at 0/10"
+        }
+      ],
+      "Main2Actions": [],
+      "Start": {
+        "Offerings": 2,
+        "Memory": 1,
+        "Hand": [
+          "Leopard Hunter"
+        ],
+        "Battlefield": [
+          "Young Hunter",
+          "Young Hunter"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": "First Hunter",
+        "ShrineDamage": [
+          "Shrine of the Red Baobab: 0/10",
+          "Hunter\u2019s Root-Stone: 2/10",
+          "Moonlit Roots: 0/10"
+        ],
+        "Forgotten": [
+          "Offering of Milk and Ash"
+        ]
+      },
+      "End": {
+        "Offerings": 0,
+        "Memory": 1,
+        "Hand": [
+          "Ritual of Red Moon"
+        ],
+        "Battlefield": [
+          "Leopard Hunter",
+          "Young Hunter",
+          "Young Hunter"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": "First Hunter",
+        "ShrineDamage": [
+          "Shrine of the Red Baobab: 0/10",
+          "Hunter\u2019s Root-Stone: 2/10",
+          "Moonlit Roots: 0/10"
+        ],
+        "Forgotten": [
+          "Offering of Milk and Ash"
+        ]
+      },
+      "RetainedCard": "Ritual of Red Moon",
+      "DiscardedCards": [
+        "Hunter\u2019s Call",
+        "Root-Woven Guard",
+        "Root-Woven Guard"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 10,
+      "PhaseNumber": 3,
+      "Player": 1,
+      "Main1Actions": [
+        "Main 1: played Iron Hyena Champion"
+      ],
+      "Attacks": [],
+      "Main2Actions": [],
+      "Start": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Bone Spear"
+        ],
+        "Battlefield": [],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 0/10",
+          "Bone-Fang Shrine: 11/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Bite the Roots",
+          "Iron Snare"
+        ]
+      },
+      "End": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Bone Spear"
+        ],
+        "Battlefield": [
+          "Iron Hyena Champion"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 0/10",
+          "Bone-Fang Shrine: 11/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Bite the Roots",
+          "Iron Snare"
+        ]
+      },
+      "RetainedCard": "Bone Spear",
+      "DiscardedCards": [
+        "Rust Hyena Spirit",
+        "Iron Hyena Champion",
+        "Fang Relic"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 11,
+      "PhaseNumber": 3,
+      "Player": 0,
+      "Main1Actions": [
+        "Main 1: resolved Ritual of Red Moon (dealt 2 to Iron Hyena Champion)",
+        "Main 1: resolved Ritual of Red Moon (dealt 2 to Iron Hyena Champion, destroyed it, gained 1 Memory)"
+      ],
+      "Attacks": [
+        {
+          "Attacker": "Leopard Hunter",
+          "Target": "Iron Hyena Den",
+          "Defender": "No blocker",
+          "PreparedTriggers": [],
+          "Calculations": [],
+          "DamageEvents": [
+            "Shrine Iron Hyena Den takes 6."
+          ],
+          "Result": "Leopard Hunter survives, Iron Hyena Den at 4/10"
+        }
+      ],
+      "Main2Actions": [],
+      "Start": {
+        "Offerings": 0,
+        "Memory": 1,
+        "Hand": [
+          "Ritual of Red Moon"
+        ],
+        "Battlefield": [
+          "Leopard Hunter",
+          "Young Hunter",
+          "Young Hunter"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": "First Hunter",
+        "ShrineDamage": [
+          "Shrine of the Red Baobab: 0/10",
+          "Hunter\u2019s Root-Stone: 2/10",
+          "Moonlit Roots: 0/10"
+        ],
+        "Forgotten": [
+          "Offering of Milk and Ash"
+        ]
+      },
+      "End": {
+        "Offerings": 2,
+        "Memory": 2,
+        "Hand": [
+          "Kuma Who Wounded the Sun"
+        ],
+        "Battlefield": [
+          "Leopard Hunter",
+          "Young Hunter",
+          "Young Hunter"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": "First Hunter",
+        "ShrineDamage": [
+          "Shrine of the Red Baobab: 0/10",
+          "Hunter\u2019s Root-Stone: 2/10",
+          "Moonlit Roots: 0/10"
+        ],
+        "Forgotten": [
+          "Offering of Milk and Ash",
+          "Ritual of Red Moon",
+          "Ritual of Red Moon"
+        ]
+      },
+      "RetainedCard": "Kuma Who Wounded the Sun",
+      "DiscardedCards": [
+        "Baobab Guardian",
+        "Offering of Milk and Ash"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 12,
+      "PhaseNumber": 3,
+      "Player": 1,
+      "Main1Actions": [
+        "Main 1: played Bone-Cracker Cub",
+        "Main 1: played Bone-Cracker Cub"
+      ],
+      "Attacks": [],
+      "Main2Actions": [
+        "Main 2: played Rust Hyena Spirit"
+      ],
+      "Start": {
+        "Offerings": 0,
+        "Memory": 0,
+        "Hand": [
+          "Bone Spear"
+        ],
+        "Battlefield": [],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 6/10",
+          "Bone-Fang Shrine: 11/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Bite the Roots",
+          "Iron Snare"
+        ]
+      },
+      "End": {
+        "Offerings": 2,
+        "Memory": 0,
+        "Hand": [
+          "Bone Spear"
+        ],
+        "Battlefield": [
+          "Bone-Cracker Cub",
+          "Bone-Cracker Cub",
+          "Rust Hyena Spirit"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 6/10",
+          "Bone-Fang Shrine: 11/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Bite the Roots",
+          "Iron Snare"
+        ]
+      },
+      "RetainedCard": "Bone Spear",
+      "DiscardedCards": [
+        "Iron Guard"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 13,
+      "PhaseNumber": 4,
+      "Player": 1,
+      "Main1Actions": [
+        "Main 1: attached Bone Spear to Bone-Cracker Cub"
+      ],
+      "Attacks": [
+        {
+          "Attacker": "Rust Hyena Spirit",
+          "Target": "Leopard Hunter",
+          "Defender": "Leopard Hunter",
+          "PreparedTriggers": [],
+          "Calculations": [
+            "Leopard Hunter becomes Wounded."
+          ],
+          "DamageEvents": [
+            "Leopard Hunter deals 4 to Rust Hyena Spirit.",
+            "Rust Hyena Spirit deals 2 to Leopard Hunter."
+          ],
+          "Result": "Rust Hyena Spirit left battle, Leopard Hunter survives"
+        },
+        {
+          "Attacker": "Bone-Cracker Cub",
+          "Target": "Hunter\u2019s Root-Stone",
+          "Defender": "Young Hunter",
+          "PreparedTriggers": [],
+          "Calculations": [],
+          "DamageEvents": [
+            "Young Hunter deals 2 to Bone-Cracker Cub.",
+            "Bone-Cracker Cub deals 4 to Young Hunter."
+          ],
+          "Result": "Bone-Cracker Cub left battle, Young Hunter removed, Hunter\u2019s Root-Stone at 7/10"
+        },
+        {
+          "Attacker": "Bone-Cracker Cub",
+          "Target": "Hunter\u2019s Root-Stone",
+          "Defender": "Young Hunter",
+          "PreparedTriggers": [],
+          "Calculations": [],
+          "DamageEvents": [
+            "Young Hunter deals 2 to Bone-Cracker Cub.",
+            "Bone-Cracker Cub deals 3 to Young Hunter."
+          ],
+          "Result": "Bone-Cracker Cub left battle, Young Hunter removed, Hunter\u2019s Root-Stone at 7/10"
+        }
+      ],
+      "Main2Actions": [
+        "Main 2: played Black-Tooth Smith",
+        "Main 2: played Iron Guard"
+      ],
+      "Start": {
+        "Offerings": 2,
+        "Memory": 0,
+        "Hand": [
+          "Bone Spear"
+        ],
+        "Battlefield": [
+          "Bone-Cracker Cub",
+          "Bone-Cracker Cub",
+          "Rust Hyena Spirit"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 6/10",
+          "Bone-Fang Shrine: 11/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Bite the Roots",
+          "Iron Snare"
+        ]
+      },
+      "End": {
+        "Offerings": 1,
+        "Memory": 1,
+        "Hand": [
+          "Bone-Cracker Cub"
+        ],
+        "Battlefield": [
+          "Black-Tooth Smith",
+          "Iron Guard"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 6/10",
+          "Bone-Fang Shrine: 11/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Bite the Roots",
+          "Iron Snare"
+        ]
+      },
+      "RetainedCard": "Bone-Cracker Cub",
+      "DiscardedCards": [
+        "Iron Hyena Raider"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 14,
+      "PhaseNumber": 4,
+      "Player": 0,
+      "Main1Actions": [
+        "Main 1: evolved Leopard Hunter into Kuma Who Wounded the Sun (dealt 3 to Iron Hyena Den)",
+        "Main 1: played River Hunter"
+      ],
+      "Attacks": [],
+      "Main2Actions": [],
+      "Start": {
+        "Offerings": 2,
+        "Memory": 3,
+        "Hand": [
+          "Kuma Who Wounded the Sun"
+        ],
+        "Battlefield": [
+          "Leopard Hunter [Wounded]"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": "First Hunter",
+        "ShrineDamage": [
+          "Shrine of the Red Baobab: 0/10",
+          "Hunter\u2019s Root-Stone: 3/10",
+          "Moonlit Roots: 0/10"
+        ],
+        "Forgotten": [
+          "Offering of Milk and Ash",
+          "Ritual of Red Moon",
+          "Ritual of Red Moon"
+        ]
+      },
+      "End": {
+        "Offerings": 1,
+        "Memory": 1,
+        "Hand": [
+          "Spear of First Dawn"
+        ],
+        "Battlefield": [
+          "Kuma Who Wounded the Sun",
+          "River Hunter"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": "First Hunter",
+        "ShrineDamage": [
+          "Shrine of the Red Baobab: 0/10",
+          "Hunter\u2019s Root-Stone: 2/10",
+          "Moonlit Roots: 0/10"
+        ],
+        "Forgotten": [
+          "Offering of Milk and Ash",
+          "Ritual of Red Moon",
+          "Ritual of Red Moon"
+        ]
+      },
+      "RetainedCard": "Spear of First Dawn",
+      "DiscardedCards": [
+        "Ritual of Red Moon",
+        "Baobab Guardian"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 15,
+      "PhaseNumber": 4,
+      "Player": 1,
+      "Main1Actions": [
+        "Main 1: resolved Bite the Roots (dealt 3 to Hunter\u2019s Root-Stone)",
+        "Main 1: prepared Iron Snare"
+      ],
+      "Attacks": [
+        {
+          "Attacker": "Black-Tooth Smith",
+          "Target": "Hunter\u2019s Root-Stone",
+          "Defender": "Kuma Who Wounded the Sun",
+          "PreparedTriggers": [],
+          "Calculations": [
+            "Kuma Who Wounded the Sun becomes Wounded."
+          ],
+          "DamageEvents": [
+            "Kuma Who Wounded the Sun deals 6 to Black-Tooth Smith.",
+            "Black-Tooth Smith deals 2 to Kuma Who Wounded the Sun."
+          ],
+          "Result": "Black-Tooth Smith left battle, Kuma Who Wounded the Sun survives, Hunter\u2019s Root-Stone at 5/10"
+        },
+        {
+          "Attacker": "Iron Guard",
+          "Target": "Hunter\u2019s Root-Stone",
+          "Defender": "Kuma Who Wounded the Sun",
+          "PreparedTriggers": [],
+          "Calculations": [
+            "Wounded reduces Kuma Who Wounded the Sun from 6 to 4.",
+            "Kuma Who Wounded the Sun becomes Wounded."
+          ],
+          "DamageEvents": [
+            "Kuma Who Wounded the Sun deals 4 to Iron Guard.",
+            "Iron Guard deals 2 to Kuma Who Wounded the Sun."
+          ],
+          "Result": "Iron Guard left battle, Kuma Who Wounded the Sun survives, Hunter\u2019s Root-Stone at 5/10"
+        }
+      ],
+      "Main2Actions": [],
+      "Start": {
+        "Offerings": 1,
+        "Memory": 1,
+        "Hand": [
+          "Bone-Cracker Cub"
+        ],
+        "Battlefield": [
+          "Black-Tooth Smith",
+          "Iron Guard"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 9/10",
+          "Bone-Fang Shrine: 11/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Bite the Roots",
+          "Iron Snare"
+        ]
+      },
+      "End": {
+        "Offerings": 5,
+        "Memory": 1,
+        "Hand": [
+          "Bone-Cracker Cub"
+        ],
+        "Battlefield": [],
+        "PreparedTactic": "Iron Snare",
+        "AwakenedAncestor": null,
+        "ShrineDamage": [
+          "Iron Hyena Den: 9/10",
+          "Bone-Fang Shrine: 11/10",
+          "Rusted Moon Shrine: 0/10"
+        ],
+        "Forgotten": [
+          "Bite the Roots",
+          "Bite the Roots",
+          "Bite the Roots",
+          "Iron Snare"
+        ]
+      },
+      "RetainedCard": "Bone-Cracker Cub",
+      "DiscardedCards": [
+        "Black-Tooth Smith",
+        "Hyena Pack Call"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    },
+    {
+      "TurnNumber": 16,
+      "PhaseNumber": 4,
+      "Player": 0,
+      "Main1Actions": [
+        "Main 1: played River Hunter",
+        "Main 1: attached Spear of First Dawn to Kuma Who Wounded the Sun"
+      ],
+      "Attacks": [
+        {
+          "Attacker": "Kuma Who Wounded the Sun",
+          "Target": "Iron Hyena Den",
+          "Defender": "No blocker",
+          "PreparedTriggers": [
+            "Iron Snare"
+          ],
+          "Calculations": [
+            "Wounded reduces Kuma Who Wounded the Sun from 11 to 8."
+          ],
+          "DamageEvents": [
+            "Shrine Iron Hyena Den takes 8."
+          ],
+          "Result": "Kuma Who Wounded the Sun survives, Iron Hyena Den at 0/10"
+        }
+      ],
+      "Main2Actions": [],
+      "Start": {
+        "Offerings": 1,
+        "Memory": 1,
+        "Hand": [
+          "Spear of First Dawn"
+        ],
+        "Battlefield": [
+          "Kuma Who Wounded the Sun [Wounded]",
+          "River Hunter"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": "First Hunter",
+        "ShrineDamage": [
+          "Shrine of the Red Baobab: 0/10",
+          "Hunter\u2019s Root-Stone: 5/10",
+          "Moonlit Roots: 0/10"
+        ],
+        "Forgotten": [
+          "Offering of Milk and Ash",
+          "Ritual of Red Moon",
+          "Ritual of Red Moon"
+        ]
+      },
+      "End": {
+        "Offerings": 4,
+        "Memory": 1,
+        "Hand": [
+          "Esprit du L\u00E9opard"
+        ],
+        "Battlefield": [
+          "Kuma Who Wounded the Sun [Relic:Spear of First Dawn]",
+          "River Hunter",
+          "River Hunter",
+          "Spear of First Dawn"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": "First Hunter",
+        "ShrineDamage": [
+          "Shrine of the Red Baobab: 0/10",
+          "Hunter\u2019s Root-Stone: 5/10",
+          "Moonlit Roots: 0/10"
+        ],
+        "Forgotten": [
+          "Offering of Milk and Ash",
+          "Ritual of Red Moon",
+          "Ritual of Red Moon"
+        ]
+      },
+      "RetainedCard": "Esprit du L\u00E9opard",
+      "DiscardedCards": [
+        "Deep River Spirit",
+        "Offering of Milk and Ash"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": [
+        "Kuma Who Wounded the Sun"
+      ]
+    },
+    {
+      "TurnNumber": 17,
+      "PhaseNumber": 5,
+      "Player": 0,
+      "Main1Actions": [
+        "Main 1: played Young Hunter",
+        "Main 1: attached Spear of First Dawn to Kuma Who Wounded the Sun"
+      ],
+      "Attacks": [
+        {
+          "Attacker": "Kuma Who Wounded the Sun",
+          "Target": "Rusted Moon Shrine",
+          "Defender": "No blocker",
+          "PreparedTriggers": [],
+          "Calculations": [],
+          "DamageEvents": [
+            "Shrine Rusted Moon Shrine takes 11."
+          ],
+          "Result": "Kuma Who Wounded the Sun survives, Rusted Moon Shrine at 0/10"
+        }
+      ],
+      "Main2Actions": [],
+      "Start": {
+        "Offerings": 4,
+        "Memory": 1,
+        "Hand": [
+          "Esprit du L\u00E9opard"
+        ],
+        "Battlefield": [
+          "Kuma Who Wounded the Sun [Relic:Spear of First Dawn]",
+          "River Hunter",
+          "River Hunter",
+          "Spear of First Dawn"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": "First Hunter",
+        "ShrineDamage": [
+          "Shrine of the Red Baobab: 0/10",
+          "Hunter\u2019s Root-Stone: 5/10",
+          "Moonlit Roots: 0/10"
+        ],
+        "Forgotten": [
+          "Offering of Milk and Ash",
+          "Ritual of Red Moon",
+          "Ritual of Red Moon"
+        ]
+      },
+      "End": {
+        "Offerings": 5,
+        "Memory": 1,
+        "Hand": [
+          "Esprit du L\u00E9opard"
+        ],
+        "Battlefield": [
+          "Kuma Who Wounded the Sun [Relic:Spear of First Dawn]",
+          "River Hunter",
+          "River Hunter",
+          "Spear of First Dawn",
+          "Spear of First Dawn",
+          "Young Hunter"
+        ],
+        "PreparedTactic": null,
+        "AwakenedAncestor": "First Hunter",
+        "ShrineDamage": [
+          "Shrine of the Red Baobab: 0/10",
+          "Hunter\u2019s Root-Stone: 5/10",
+          "Moonlit Roots: 0/10"
+        ],
+        "Forgotten": [
+          "Offering of Milk and Ash",
+          "Ritual of Red Moon",
+          "Ritual of Red Moon"
+        ]
+      },
+      "RetainedCard": "Esprit du L\u00E9opard",
+      "DiscardedCards": [
+        "Pale River Spirit",
+        "Root-Woven Guard"
+      ],
+      "ForgottenCards": [],
+      "WoundedClears": []
+    }
+  ],
+  "Red": {
+    "Name": "red-hunter-evolution",
+    "Shrines": [
+      {
+        "DefinitionId": "red.shrine.baobab",
+        "Name": "Shrine of the Red Baobab",
+        "Owner": 0,
+        "Vitality": 10,
+        "Damage": 0,
+        "IsBroken": false
+      },
+      {
+        "DefinitionId": "red.shrine.rootstone",
+        "Name": "Hunter\u2019s Root-Stone",
+        "Owner": 0,
+        "Vitality": 10,
+        "Damage": 5,
+        "IsBroken": false
+      },
+      {
+        "DefinitionId": "red.shrine.moonlitroots",
+        "Name": "Moonlit Roots",
+        "Owner": 0,
+        "Vitality": 10,
+        "Damage": 0,
+        "IsBroken": false
+      }
+    ],
+    "Forgotten": [
+      "Offering of Milk and Ash",
+      "Ritual of Red Moon",
+      "Ritual of Red Moon"
+    ],
+    "Battlefield": [
+      "Kuma Who Wounded the Sun",
+      "River Hunter",
+      "River Hunter",
+      "Spear of First Dawn",
+      "Young Hunter",
+      "Spear of First Dawn"
+    ]
+  },
+  "Iron": {
+    "Name": "iron-snarecraft-control",
+    "Shrines": [
+      {
+        "DefinitionId": "iron.shrine.den",
+        "Name": "Iron Hyena Den",
+        "Owner": 1,
+        "Vitality": 10,
+        "Damage": 17,
+        "IsBroken": true
+      },
+      {
+        "DefinitionId": "iron.shrine.bonefang",
+        "Name": "Bone-Fang Shrine",
+        "Owner": 1,
+        "Vitality": 10,
+        "Damage": 11,
+        "IsBroken": true
+      },
+      {
+        "DefinitionId": "iron.shrine.rustedmoon",
+        "Name": "Rusted Moon Shrine",
+        "Owner": 1,
+        "Vitality": 10,
+        "Damage": 11,
+        "IsBroken": true
+      }
+    ],
+    "Forgotten": [
+      "Iron Snare",
+      "Bite the Roots",
+      "Bite the Roots",
+      "Bite the Roots",
+      "Iron Snare"
+    ],
+    "Battlefield": []
+  }
+}

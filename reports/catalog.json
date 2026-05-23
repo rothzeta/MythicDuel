@@ -1,0 +1,1462 @@
+{
+  "Command": "dotnet run --project MythicDuel.Sim -- --mode catalog --games 1 --seed 123 --out C:\\Users\\cedri\\source\\repos\\MythicDuelSim\\reports --bot-red red --bot-iron iron --deck-red red --deck-iron iron --catalog-file catalog.json",
+  "GeneratedAtUtc": "2026-05-23T22:59:16.5067714+00:00",
+  "Keywords": [
+    "Disperse",
+    "Possession",
+    "PreparedTactic",
+    "Pierce",
+    "Guard",
+    "Ambush",
+    "Recall",
+    "Fade",
+    "WeaponMaster",
+    "SoulSlayer",
+    "Mythic",
+    "Ascend",
+    "Unique",
+    "Pack"
+  ],
+  "PreparedTriggers": [
+    "None",
+    "FriendlyHunterAttacks",
+    "FriendlyShrineWouldTakeAttackDamage",
+    "EnemyUnitAttackThreeOrMore",
+    "EnemyBeingEvolves"
+  ],
+  "EvolveConditions": [
+    "None",
+    "DestroyedEnemyThisTurn",
+    "DamagedShrineThisTurn",
+    "BrokeShrineThisTurn"
+  ],
+  "AncestorConditions": [
+    "None",
+    "DestroyedEnemyThisTurn",
+    "RestoredShrineThisTurnOrSkippedShrineAttacksLastTurn",
+    "SpiritDispersedSinceLastTurn",
+    "DamagedEnemyShrineThisTurn",
+    "SurvivedCombatThisTurn",
+    "PlayedRelicThisTurn",
+    "DeclaredPackAttackThisTurn",
+    "WoundedOrSurvivedCombatThisTurn"
+  ],
+  "CardTypes": [
+    "Shrine",
+    "Being",
+    "Spirit",
+    "Relic",
+    "Rite",
+    "Tactic",
+    "Ancestor",
+    "Token"
+  ],
+  "Players": [
+    "Red",
+    "Iron"
+  ],
+  "Bots": [
+    {
+      "Name": "red",
+      "Implementation": "RedBaobabBot"
+    },
+    {
+      "Name": "iron",
+      "Implementation": "IronHyenaBot"
+    },
+    {
+      "Name": "random",
+      "Implementation": "RandomLegalBot"
+    },
+    {
+      "Name": "evolution",
+      "Implementation": "RedEvolutionBot"
+    },
+    {
+      "Name": "passive",
+      "Implementation": "PassiveBot"
+    }
+  ],
+  "Cards": [
+    {
+      "Id": "red.baobabguardian",
+      "Name": "Baobab Guardian",
+      "DeckOwner": "Red",
+      "Faction": "Red",
+      "CardType": "Being",
+      "OfferingCost": 3,
+      "MemoryCost": 0,
+      "Attack": 2,
+      "Vitality": 4,
+      "PresenceCost": 1,
+      "Keywords": [
+        "Guard"
+      ],
+      "Tags": [
+        "Guardian"
+      ],
+      "CanAttackShrines": true,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": false,
+      "EvolveFromTag": null,
+      "EvolveCondition": "None",
+      "EvolveOfferingCost": 0,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "None",
+      "MaxCopies": 2,
+      "RulesText": "Guard. Restore 1 Vitality to a Shrine when this survives combat."
+    },
+    {
+      "Id": "red.deepriverspirit",
+      "Name": "Deep River Spirit",
+      "DeckOwner": "Red",
+      "Faction": "Red",
+      "CardType": "Spirit",
+      "OfferingCost": 4,
+      "MemoryCost": 1,
+      "Attack": 3,
+      "Vitality": 5,
+      "PresenceCost": 1,
+      "Keywords": [
+        "Disperse",
+        "Ascend"
+      ],
+      "Tags": [
+        "Spirit"
+      ],
+      "CanAttackShrines": false,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": false,
+      "EvolveFromTag": null,
+      "EvolveCondition": "None",
+      "EvolveOfferingCost": 0,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "None",
+      "MaxCopies": 2,
+      "RulesText": "Disperse. Restore 2 Vitality to a Shrine when it disperses. Ascend."
+    },
+    {
+      "Id": "red.espritduleopard",
+      "Name": "Esprit du L\u00E9opard",
+      "DeckOwner": "Red",
+      "Faction": "Red",
+      "CardType": "Spirit",
+      "OfferingCost": 2,
+      "MemoryCost": 1,
+      "Attack": 0,
+      "Vitality": 0,
+      "PresenceCost": 1,
+      "Keywords": [
+        "Disperse",
+        "Possession"
+      ],
+      "Tags": [
+        "Spirit",
+        "Possession"
+      ],
+      "CanAttackShrines": false,
+      "CanAttackUnits": false,
+      "CanAttackOnEnter": false,
+      "IsEvolution": false,
+      "EvolveFromTag": null,
+      "EvolveCondition": "None",
+      "EvolveOfferingCost": 0,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "None",
+      "MaxCopies": 2,
+      "RulesText": "Attach to a Being. Host gets \u002B2 Attack and Ambush."
+    },
+    {
+      "Id": "red.hunterscall",
+      "Name": "Hunter\u2019s Call",
+      "DeckOwner": "Red",
+      "Faction": "Red",
+      "CardType": "Tactic",
+      "OfferingCost": 1,
+      "MemoryCost": 0,
+      "Attack": 0,
+      "Vitality": 0,
+      "PresenceCost": 0,
+      "Keywords": [
+        "PreparedTactic",
+        "Fade"
+      ],
+      "Tags": [
+        "Tactic"
+      ],
+      "CanAttackShrines": false,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": false,
+      "EvolveFromTag": null,
+      "EvolveCondition": "None",
+      "EvolveOfferingCost": 0,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "FriendlyHunterAttacks",
+      "MaxCopies": 2,
+      "RulesText": "Prepared. Trigger on friendly Hunter attack."
+    },
+    {
+      "Id": "red.kumawhowoundedthesun",
+      "Name": "Kuma Who Wounded the Sun",
+      "DeckOwner": "Red",
+      "Faction": "Red",
+      "CardType": "Being",
+      "OfferingCost": 8,
+      "MemoryCost": 2,
+      "Attack": 6,
+      "Vitality": 6,
+      "PresenceCost": 2,
+      "Keywords": [
+        "Pierce",
+        "Mythic",
+        "Unique"
+      ],
+      "Tags": [
+        "Hunter",
+        "Sun",
+        "L3"
+      ],
+      "CanAttackShrines": true,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": true,
+      "EvolveFromTag": "L2",
+      "EvolveCondition": "DamagedShrineThisTurn",
+      "EvolveOfferingCost": 4,
+      "EvolveMemoryCost": 2,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "None",
+      "MaxCopies": 1,
+      "RulesText": "Pierce. Evolve from Leopard Hunter."
+    },
+    {
+      "Id": "red.leopardhunter",
+      "Name": "Leopard Hunter",
+      "DeckOwner": "Red",
+      "Faction": "Red",
+      "CardType": "Being",
+      "OfferingCost": 5,
+      "MemoryCost": 0,
+      "Attack": 4,
+      "Vitality": 4,
+      "PresenceCost": 1,
+      "Keywords": [
+        "Ambush",
+        "WeaponMaster",
+        "SoulSlayer"
+      ],
+      "Tags": [
+        "Hunter",
+        "Leopard",
+        "L2"
+      ],
+      "CanAttackShrines": true,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": true,
+      "IsEvolution": true,
+      "EvolveFromTag": "Hunter",
+      "EvolveCondition": "DestroyedEnemyThisTurn",
+      "EvolveOfferingCost": 3,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "None",
+      "MaxCopies": 2,
+      "RulesText": "Ambush. WeaponMaster. SoulSlayer. Evolve from Hunter."
+    },
+    {
+      "Id": "red.offeringofmilkandash",
+      "Name": "Offering of Milk and Ash",
+      "DeckOwner": "Red",
+      "Faction": "Red",
+      "CardType": "Rite",
+      "OfferingCost": 1,
+      "MemoryCost": 0,
+      "Attack": 0,
+      "Vitality": 0,
+      "PresenceCost": 0,
+      "Keywords": [
+        "Fade"
+      ],
+      "Tags": [
+        "Rite"
+      ],
+      "CanAttackShrines": false,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": false,
+      "EvolveFromTag": null,
+      "EvolveCondition": "None",
+      "EvolveOfferingCost": 0,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "None",
+      "MaxCopies": 2,
+      "RulesText": "Restore 3 Vitality to a Shrine. If you attacked a Shrine this turn, this costs \u002B1 Memory."
+    },
+    {
+      "Id": "red.paleriverspirit",
+      "Name": "Pale River Spirit",
+      "DeckOwner": "Red",
+      "Faction": "Red",
+      "CardType": "Spirit",
+      "OfferingCost": 2,
+      "MemoryCost": 0,
+      "Attack": 2,
+      "Vitality": 2,
+      "PresenceCost": 1,
+      "Keywords": [
+        "Disperse"
+      ],
+      "Tags": [
+        "Spirit"
+      ],
+      "CanAttackShrines": false,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": false,
+      "EvolveFromTag": null,
+      "EvolveCondition": "None",
+      "EvolveOfferingCost": 0,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "None",
+      "MaxCopies": 2,
+      "RulesText": "Disperse. Gain 1 additional Memory when it disperses."
+    },
+    {
+      "Id": "red.ritualofredmoon",
+      "Name": "Ritual of Red Moon",
+      "DeckOwner": "Red",
+      "Faction": "Red",
+      "CardType": "Rite",
+      "OfferingCost": 2,
+      "MemoryCost": 0,
+      "Attack": 0,
+      "Vitality": 0,
+      "PresenceCost": 0,
+      "Keywords": [
+        "Fade"
+      ],
+      "Tags": [
+        "Rite"
+      ],
+      "CanAttackShrines": false,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": false,
+      "EvolveFromTag": null,
+      "EvolveCondition": "None",
+      "EvolveOfferingCost": 0,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "None",
+      "MaxCopies": 3,
+      "RulesText": "Deal 2 damage to a Being. If it dies this turn, gain 1 Memory."
+    },
+    {
+      "Id": "red.riverhunter",
+      "Name": "River Hunter",
+      "DeckOwner": "Red",
+      "Faction": "Red",
+      "CardType": "Being",
+      "OfferingCost": 2,
+      "MemoryCost": 0,
+      "Attack": 3,
+      "Vitality": 2,
+      "PresenceCost": 1,
+      "Keywords": [],
+      "Tags": [
+        "Hunter"
+      ],
+      "CanAttackShrines": true,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": false,
+      "EvolveFromTag": null,
+      "EvolveCondition": "None",
+      "EvolveOfferingCost": 0,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "None",
+      "MaxCopies": 3,
+      "RulesText": "Gain 1 Memory when it destroys an enemy."
+    },
+    {
+      "Id": "red.rootwovenguard",
+      "Name": "Root-Woven Guard",
+      "DeckOwner": "Red",
+      "Faction": "Red",
+      "CardType": "Tactic",
+      "OfferingCost": 1,
+      "MemoryCost": 1,
+      "Attack": 0,
+      "Vitality": 0,
+      "PresenceCost": 0,
+      "Keywords": [
+        "PreparedTactic",
+        "Fade"
+      ],
+      "Tags": [
+        "Tactic"
+      ],
+      "CanAttackShrines": false,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": false,
+      "EvolveFromTag": null,
+      "EvolveCondition": "None",
+      "EvolveOfferingCost": 0,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "FriendlyShrineWouldTakeAttackDamage",
+      "MaxCopies": 2,
+      "RulesText": "Prepared. Reduce Shrine attack damage by 3."
+    },
+    {
+      "Id": "red.spearoffirstdawn",
+      "Name": "Spear of First Dawn",
+      "DeckOwner": "Red",
+      "Faction": "Red",
+      "CardType": "Relic",
+      "OfferingCost": 2,
+      "MemoryCost": 0,
+      "Attack": 0,
+      "Vitality": 0,
+      "PresenceCost": 0,
+      "Keywords": [],
+      "Tags": [
+        "Relic"
+      ],
+      "CanAttackShrines": false,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": false,
+      "EvolveFromTag": null,
+      "EvolveCondition": "None",
+      "EvolveOfferingCost": 0,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "None",
+      "MaxCopies": 2,
+      "RulesText": "Attach to a Being. \u002B1 Attack; \u002B2 more while Hunter attacks a Shrine."
+    },
+    {
+      "Id": "red.younghunter",
+      "Name": "Young Hunter",
+      "DeckOwner": "Red",
+      "Faction": "Red",
+      "CardType": "Being",
+      "OfferingCost": 1,
+      "MemoryCost": 0,
+      "Attack": 2,
+      "Vitality": 1,
+      "PresenceCost": 1,
+      "Keywords": [],
+      "Tags": [
+        "Hunter"
+      ],
+      "CanAttackShrines": true,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": false,
+      "EvolveFromTag": null,
+      "EvolveCondition": "None",
+      "EvolveOfferingCost": 0,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "None",
+      "MaxCopies": 3,
+      "RulesText": "2/1 Hunter."
+    },
+    {
+      "Id": "iron.bitetheroots",
+      "Name": "Bite the Roots",
+      "DeckOwner": "Iron",
+      "Faction": "Iron",
+      "CardType": "Rite",
+      "OfferingCost": 2,
+      "MemoryCost": 0,
+      "Attack": 0,
+      "Vitality": 0,
+      "PresenceCost": 0,
+      "Keywords": [
+        "Fade"
+      ],
+      "Tags": [
+        "Rite"
+      ],
+      "CanAttackShrines": false,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": false,
+      "EvolveFromTag": null,
+      "EvolveCondition": "None",
+      "EvolveOfferingCost": 0,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "None",
+      "MaxCopies": 3,
+      "RulesText": "Deal 3 damage to a Shrine. If it breaks this turn, gain 1 Memory."
+    },
+    {
+      "Id": "iron.blacktoothsmith",
+      "Name": "Black-Tooth Smith",
+      "DeckOwner": "Iron",
+      "Faction": "Iron",
+      "CardType": "Being",
+      "OfferingCost": 3,
+      "MemoryCost": 0,
+      "Attack": 2,
+      "Vitality": 3,
+      "PresenceCost": 1,
+      "Keywords": [],
+      "Tags": [
+        "Smith"
+      ],
+      "CanAttackShrines": true,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": false,
+      "EvolveFromTag": null,
+      "EvolveCondition": "None",
+      "EvolveOfferingCost": 0,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "None",
+      "MaxCopies": 3,
+      "RulesText": "May attach a Relic from hand to a Being at 1 less Offering when entering."
+    },
+    {
+      "Id": "iron.bloodscenthyena",
+      "Name": "Blood-Scent Hyena",
+      "DeckOwner": "Iron",
+      "Faction": "Iron",
+      "CardType": "Being",
+      "OfferingCost": 2,
+      "MemoryCost": 0,
+      "Attack": 2,
+      "Vitality": 2,
+      "PresenceCost": 1,
+      "Keywords": [
+        "Pack"
+      ],
+      "Tags": [
+        "Hyena"
+      ],
+      "CanAttackShrines": true,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": false,
+      "EvolveFromTag": null,
+      "EvolveCondition": "None",
+      "EvolveOfferingCost": 0,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "None",
+      "MaxCopies": 2,
+      "RulesText": "Pack. When this attacks a damaged Shrine, deal 1 damage to another enemy Shrine."
+    },
+    {
+      "Id": "iron.bonespear",
+      "Name": "Bone Spear",
+      "DeckOwner": "Iron",
+      "Faction": "Iron",
+      "CardType": "Relic",
+      "OfferingCost": 1,
+      "MemoryCost": 0,
+      "Attack": 0,
+      "Vitality": 0,
+      "PresenceCost": 0,
+      "Keywords": [],
+      "Tags": [
+        "Relic"
+      ],
+      "CanAttackShrines": false,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": false,
+      "EvolveFromTag": null,
+      "EvolveCondition": "None",
+      "EvolveOfferingCost": 0,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "None",
+      "MaxCopies": 2,
+      "RulesText": "Attach to a Being. \u002B1 Attack and Pierce on damaged Shrine attack."
+    },
+    {
+      "Id": "iron.bonecrackercub",
+      "Name": "Bone-Cracker Cub",
+      "DeckOwner": "Iron",
+      "Faction": "Iron",
+      "CardType": "Being",
+      "OfferingCost": 1,
+      "MemoryCost": 0,
+      "Attack": 2,
+      "Vitality": 1,
+      "PresenceCost": 1,
+      "Keywords": [
+        "Pack"
+      ],
+      "Tags": [
+        "Hyena"
+      ],
+      "CanAttackShrines": true,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": false,
+      "EvolveFromTag": null,
+      "EvolveCondition": "None",
+      "EvolveOfferingCost": 0,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "None",
+      "MaxCopies": 4,
+      "RulesText": "\u002B1 Attack while attacking damaged Shrines. Pack."
+    },
+    {
+      "Id": "iron.falseopening",
+      "Name": "False Opening",
+      "DeckOwner": "Iron",
+      "Faction": "Iron",
+      "CardType": "Tactic",
+      "OfferingCost": 1,
+      "MemoryCost": 1,
+      "Attack": 0,
+      "Vitality": 0,
+      "PresenceCost": 0,
+      "Keywords": [
+        "PreparedTactic",
+        "Fade"
+      ],
+      "Tags": [
+        "Tactic"
+      ],
+      "CanAttackShrines": false,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": false,
+      "EvolveFromTag": null,
+      "EvolveCondition": "None",
+      "EvolveOfferingCost": 0,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "EnemyBeingEvolves",
+      "MaxCopies": 2,
+      "RulesText": "Prepared. Trigger on enemy Being evolution."
+    },
+    {
+      "Id": "iron.fangrelic",
+      "Name": "Fang Relic",
+      "DeckOwner": "Iron",
+      "Faction": "Iron",
+      "CardType": "Relic",
+      "OfferingCost": 2,
+      "MemoryCost": 0,
+      "Attack": 0,
+      "Vitality": 0,
+      "PresenceCost": 0,
+      "Keywords": [],
+      "Tags": [
+        "Relic"
+      ],
+      "CanAttackShrines": false,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": false,
+      "EvolveFromTag": null,
+      "EvolveCondition": "None",
+      "EvolveOfferingCost": 0,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "None",
+      "MaxCopies": 2,
+      "RulesText": "Attach to a Being. Host gets \u002B1 Attack. When host attacks a damaged Shrine, deal 1 damage to another enemy Shrine."
+    },
+    {
+      "Id": "iron.hyenapackcall",
+      "Name": "Hyena Pack Call",
+      "DeckOwner": "Iron",
+      "Faction": "Iron",
+      "CardType": "Rite",
+      "OfferingCost": 2,
+      "MemoryCost": 0,
+      "Attack": 0,
+      "Vitality": 0,
+      "PresenceCost": 0,
+      "Keywords": [],
+      "Tags": [
+        "Rite"
+      ],
+      "CanAttackShrines": false,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": false,
+      "EvolveFromTag": null,
+      "EvolveCondition": "None",
+      "EvolveOfferingCost": 0,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "None",
+      "MaxCopies": 2,
+      "RulesText": "Summon two 1/1 Hyena Beings."
+    },
+    {
+      "Id": "iron.hyena.token",
+      "Name": "Hyena Token",
+      "DeckOwner": "Iron",
+      "Faction": "Iron",
+      "CardType": "Token",
+      "OfferingCost": 0,
+      "MemoryCost": 0,
+      "Attack": 1,
+      "Vitality": 1,
+      "PresenceCost": 1,
+      "Keywords": [
+        "Pack"
+      ],
+      "Tags": [
+        "Hyena",
+        "Token"
+      ],
+      "CanAttackShrines": true,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": false,
+      "EvolveFromTag": null,
+      "EvolveCondition": "None",
+      "EvolveOfferingCost": 0,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "None",
+      "MaxCopies": 0,
+      "RulesText": "1/1 token from Hyena Pack Call. Pack."
+    },
+    {
+      "Id": "iron.ironguard",
+      "Name": "Iron Guard",
+      "DeckOwner": "Iron",
+      "Faction": "Iron",
+      "CardType": "Being",
+      "OfferingCost": 2,
+      "MemoryCost": 0,
+      "Attack": 2,
+      "Vitality": 3,
+      "PresenceCost": 1,
+      "Keywords": [
+        "Guard"
+      ],
+      "Tags": [
+        "Guard"
+      ],
+      "CanAttackShrines": true,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": false,
+      "EvolveFromTag": null,
+      "EvolveCondition": "None",
+      "EvolveOfferingCost": 0,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "None",
+      "MaxCopies": 2,
+      "RulesText": "Guard."
+    },
+    {
+      "Id": "iron.ironhyenachampion",
+      "Name": "Iron Hyena Champion",
+      "DeckOwner": "Iron",
+      "Faction": "Iron",
+      "CardType": "Being",
+      "OfferingCost": 5,
+      "MemoryCost": 0,
+      "Attack": 5,
+      "Vitality": 3,
+      "PresenceCost": 1,
+      "Keywords": [
+        "Pack"
+      ],
+      "Tags": [
+        "Hyena",
+        "Iron",
+        "L2"
+      ],
+      "CanAttackShrines": true,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": true,
+      "EvolveFromTag": "Hyena",
+      "EvolveCondition": "DamagedShrineThisTurn",
+      "EvolveOfferingCost": 3,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "None",
+      "MaxCopies": 2,
+      "RulesText": "Pack. Evolve from Hyena. Deal 2 damage to same Shrine when evolved."
+    },
+    {
+      "Id": "iron.ironhyenaraider",
+      "Name": "Iron Hyena Raider",
+      "DeckOwner": "Iron",
+      "Faction": "Iron",
+      "CardType": "Being",
+      "OfferingCost": 2,
+      "MemoryCost": 0,
+      "Attack": 3,
+      "Vitality": 2,
+      "PresenceCost": 1,
+      "Keywords": [
+        "Pack"
+      ],
+      "Tags": [
+        "Hyena"
+      ],
+      "CanAttackShrines": true,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": false,
+      "EvolveFromTag": null,
+      "EvolveCondition": "None",
+      "EvolveOfferingCost": 0,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "None",
+      "MaxCopies": 3,
+      "RulesText": "Pack. When this attacks a Shrine, deal 1 damage to another Shrine controlled by same player."
+    },
+    {
+      "Id": "iron.ironhyenaunderworld",
+      "Name": "Iron Hyena Underworld",
+      "DeckOwner": "Iron",
+      "Faction": "Iron",
+      "CardType": "Being",
+      "OfferingCost": 8,
+      "MemoryCost": 2,
+      "Attack": 7,
+      "Vitality": 5,
+      "PresenceCost": 2,
+      "Keywords": [
+        "Pierce",
+        "Mythic",
+        "Unique"
+      ],
+      "Tags": [
+        "Hyena",
+        "Iron",
+        "L3"
+      ],
+      "CanAttackShrines": true,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": true,
+      "EvolveFromTag": "L2",
+      "EvolveCondition": "DamagedShrineThisTurn",
+      "EvolveOfferingCost": 5,
+      "EvolveMemoryCost": 2,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "None",
+      "MaxCopies": 1,
+      "RulesText": "Pierce. Evolve from Iron Hyena Champion. Deal 2 to all enemy Shrines when evolved."
+    },
+    {
+      "Id": "iron.ironsnare",
+      "Name": "Iron Snare",
+      "DeckOwner": "Iron",
+      "Faction": "Iron",
+      "CardType": "Tactic",
+      "OfferingCost": 1,
+      "MemoryCost": 0,
+      "Attack": 0,
+      "Vitality": 0,
+      "PresenceCost": 0,
+      "Keywords": [
+        "PreparedTactic",
+        "Fade"
+      ],
+      "Tags": [
+        "Tactic"
+      ],
+      "CanAttackShrines": false,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": false,
+      "EvolveFromTag": null,
+      "EvolveCondition": "None",
+      "EvolveOfferingCost": 0,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "EnemyUnitAttackThreeOrMore",
+      "MaxCopies": 2,
+      "RulesText": "Prepared. Next enemy unit with 3\u002B Attack attacks gets -2 Attack and may disperse possession."
+    },
+    {
+      "Id": "iron.packambush",
+      "Name": "Pack Ambush",
+      "DeckOwner": "Iron",
+      "Faction": "Iron",
+      "CardType": "Rite",
+      "OfferingCost": 1,
+      "MemoryCost": 0,
+      "Attack": 0,
+      "Vitality": 0,
+      "PresenceCost": 0,
+      "Keywords": [
+        "Fade"
+      ],
+      "Tags": [
+        "Rite"
+      ],
+      "CanAttackShrines": false,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": false,
+      "EvolveFromTag": null,
+      "EvolveCondition": "None",
+      "EvolveOfferingCost": 0,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "None",
+      "MaxCopies": 2,
+      "RulesText": "Summon a 1/1 Hyena Token. If you control another Pack Being, deal 1 damage to target Shrine."
+    },
+    {
+      "Id": "iron.packharrier",
+      "Name": "Pack Harrier",
+      "DeckOwner": "Iron",
+      "Faction": "Iron",
+      "CardType": "Being",
+      "OfferingCost": 1,
+      "MemoryCost": 0,
+      "Attack": 1,
+      "Vitality": 1,
+      "PresenceCost": 1,
+      "Keywords": [
+        "Pack"
+      ],
+      "Tags": [
+        "Hyena"
+      ],
+      "CanAttackShrines": true,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": false,
+      "EvolveFromTag": null,
+      "EvolveCondition": "None",
+      "EvolveOfferingCost": 0,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "None",
+      "MaxCopies": 2,
+      "RulesText": "Pack. When this attacks a Shrine and is blocked, deal 1 damage to the attacked Shrine."
+    },
+    {
+      "Id": "iron.rusthyenaspirit",
+      "Name": "Rust Hyena Spirit",
+      "DeckOwner": "Iron",
+      "Faction": "Iron",
+      "CardType": "Spirit",
+      "OfferingCost": 2,
+      "MemoryCost": 0,
+      "Attack": 2,
+      "Vitality": 2,
+      "PresenceCost": 1,
+      "Keywords": [
+        "Disperse"
+      ],
+      "Tags": [
+        "Spirit"
+      ],
+      "CanAttackShrines": false,
+      "CanAttackUnits": true,
+      "CanAttackOnEnter": false,
+      "IsEvolution": false,
+      "EvolveFromTag": null,
+      "EvolveCondition": "None",
+      "EvolveOfferingCost": 0,
+      "EvolveMemoryCost": 0,
+      "RecallMemoryCost": 0,
+      "PreparedTrigger": "None",
+      "MaxCopies": 2,
+      "RulesText": "Disperse. Deal 1 damage to a Shrine when it disperses."
+    }
+  ],
+  "Shrines": [
+    {
+      "Id": "red.shrine.rootstone",
+      "Name": "Hunter\u2019s Root-Stone",
+      "Owner": "Red",
+      "Vitality": 10,
+      "RulesText": "Hunters get \u002B1 Attack while attacking Shrines."
+    },
+    {
+      "Id": "red.shrine.moonlitroots",
+      "Name": "Moonlit Roots",
+      "Owner": "Red",
+      "Vitality": 10,
+      "RulesText": "End of turn, if you did not attack a Shrine this turn, restore 1 Vitality to a Shrine."
+    },
+    {
+      "Id": "red.shrine.baobab",
+      "Name": "Shrine of the Red Baobab",
+      "Owner": "Red",
+      "Vitality": 10,
+      "RulesText": "First time each turn one of your Beings dies, gain 1 Memory."
+    },
+    {
+      "Id": "iron.shrine.bonefang",
+      "Name": "Bone-Fang Shrine",
+      "Owner": "Iron",
+      "Vitality": 10,
+      "RulesText": "Your Beings get \u002B1 Attack while attacking damaged Shrines."
+    },
+    {
+      "Id": "iron.shrine.den",
+      "Name": "Iron Hyena Den",
+      "Owner": "Iron",
+      "Vitality": 10,
+      "RulesText": "First time each turn one of your Beings attacks a Shrine, gain 1 Memory."
+    },
+    {
+      "Id": "iron.shrine.rustedmoon",
+      "Name": "Rusted Moon Shrine",
+      "Owner": "Iron",
+      "Vitality": 10,
+      "RulesText": "Whenever an enemy Spirit disperses, deal 1 damage to an enemy Shrine."
+    }
+  ],
+  "Ancestors": [
+    {
+      "Id": "red.ancestor.childremembered",
+      "Name": "Child Who Remembered the Dead",
+      "Owner": "Red",
+      "AwakenMemoryCost": 2,
+      "AwakenCondition": "SpiritDispersedSinceLastTurn",
+      "Tags": [
+        "Memory",
+        "Spirit"
+      ],
+      "RulesText": "First time each turn you gain Memory, draw 1 then discard 1."
+    },
+    {
+      "Id": "red.ancestor.firsthunter",
+      "Name": "First Hunter",
+      "Owner": "Red",
+      "AwakenMemoryCost": 2,
+      "AwakenCondition": "DestroyedEnemyThisTurn",
+      "Tags": [
+        "Hunt"
+      ],
+      "RulesText": "Your Beings get \u002B1 Attack while attacking Shrines."
+    },
+    {
+      "Id": "red.ancestor.grandmother",
+      "Name": "Grandmother Beneath the Roots",
+      "Owner": "Red",
+      "AwakenMemoryCost": 2,
+      "AwakenCondition": "RestoredShrineThisTurnOrSkippedShrineAttacksLastTurn",
+      "Tags": [
+        "Root",
+        "Moon"
+      ],
+      "RulesText": "End of turn restore 1 Vitality to your most damaged Shrine."
+    },
+    {
+      "Id": "iron.ancestor.firstpack",
+      "Name": "Ancestor of the First Pack",
+      "Owner": "Iron",
+      "AwakenMemoryCost": 2,
+      "AwakenCondition": "DeclaredPackAttackThisTurn",
+      "Tags": [
+        "Iron",
+        "Hyena",
+        "Pack"
+      ],
+      "RulesText": "The first time each combat a Pack attack is blocked, deal 1 damage to the attacked Shrine."
+    },
+    {
+      "Id": "iron.ancestor.hyena",
+      "Name": "Ancestor of the Iron Hyena",
+      "Owner": "Iron",
+      "AwakenMemoryCost": 2,
+      "AwakenCondition": "DamagedEnemyShrineThisTurn",
+      "Tags": [
+        "Iron",
+        "Hyena"
+      ],
+      "RulesText": "First time each turn one of your Beings attacks a Shrine, deal 1 damage to another enemy Shrine."
+    },
+    {
+      "Id": "iron.ancestor.bonesplittermother",
+      "Name": "Bone-Splitter Mother",
+      "Owner": "Iron",
+      "AwakenMemoryCost": 2,
+      "AwakenCondition": "WoundedOrSurvivedCombatThisTurn",
+      "Tags": [
+        "Hyena",
+        "Earth",
+        "Pack"
+      ],
+      "RulesText": "Your Wounded Pack Beings get \u002B1 Attack while attacking Shrines. The first time each turn a Wounded Pack Being attacks a Shrine, deal 1 damage to that Shrine."
+    },
+    {
+      "Id": "iron.ancestor.smithpassedfang",
+      "Name": "Smith Who Passed the Fang",
+      "Owner": "Iron",
+      "AwakenMemoryCost": 2,
+      "AwakenCondition": "PlayedRelicThisTurn",
+      "Tags": [
+        "Iron",
+        "Relic"
+      ],
+      "RulesText": "Your first Relic each turn costs 1 less. When a Pack Being with a Relic dies, you may move that Relic to another ready Pack Being."
+    },
+    {
+      "Id": "iron.ancestor.smith",
+      "Name": "Smith of Black Teeth",
+      "Owner": "Iron",
+      "AwakenMemoryCost": 2,
+      "AwakenCondition": "PlayedRelicThisTurn",
+      "Tags": [
+        "Iron"
+      ],
+      "RulesText": "Your Relics cost 1 less Offering."
+    },
+    {
+      "Id": "iron.ancestor.toothmother",
+      "Name": "Tooth-Mother of the Dry Earth",
+      "Owner": "Iron",
+      "AwakenMemoryCost": 2,
+      "AwakenCondition": "SurvivedCombatThisTurn",
+      "Tags": [
+        "Hyena",
+        "Earth"
+      ],
+      "RulesText": "Your Wounded Beings get \u002B1 Attack."
+    }
+  ],
+  "Decks": [
+    {
+      "Name": "red",
+      "Owner": "Red",
+      "Faction": "Red",
+      "CardCount": 28,
+      "Cards": [
+        {
+          "CardId": "red.baobabguardian",
+          "Copies": 2
+        },
+        {
+          "CardId": "red.deepriverspirit",
+          "Copies": 2
+        },
+        {
+          "CardId": "red.espritduleopard",
+          "Copies": 2
+        },
+        {
+          "CardId": "red.hunterscall",
+          "Copies": 2
+        },
+        {
+          "CardId": "red.kumawhowoundedthesun",
+          "Copies": 1
+        },
+        {
+          "CardId": "red.leopardhunter",
+          "Copies": 2
+        },
+        {
+          "CardId": "red.offeringofmilkandash",
+          "Copies": 2
+        },
+        {
+          "CardId": "red.paleriverspirit",
+          "Copies": 2
+        },
+        {
+          "CardId": "red.ritualofredmoon",
+          "Copies": 3
+        },
+        {
+          "CardId": "red.riverhunter",
+          "Copies": 3
+        },
+        {
+          "CardId": "red.rootwovenguard",
+          "Copies": 2
+        },
+        {
+          "CardId": "red.spearoffirstdawn",
+          "Copies": 2
+        },
+        {
+          "CardId": "red.younghunter",
+          "Copies": 3
+        }
+      ]
+    },
+    {
+      "Name": "red-hunter-evolution",
+      "Owner": "Red",
+      "Faction": "Red",
+      "CardCount": 28,
+      "Cards": [
+        {
+          "CardId": "red.baobabguardian",
+          "Copies": 2
+        },
+        {
+          "CardId": "red.deepriverspirit",
+          "Copies": 2
+        },
+        {
+          "CardId": "red.espritduleopard",
+          "Copies": 2
+        },
+        {
+          "CardId": "red.hunterscall",
+          "Copies": 2
+        },
+        {
+          "CardId": "red.kumawhowoundedthesun",
+          "Copies": 1
+        },
+        {
+          "CardId": "red.leopardhunter",
+          "Copies": 2
+        },
+        {
+          "CardId": "red.offeringofmilkandash",
+          "Copies": 2
+        },
+        {
+          "CardId": "red.paleriverspirit",
+          "Copies": 2
+        },
+        {
+          "CardId": "red.ritualofredmoon",
+          "Copies": 3
+        },
+        {
+          "CardId": "red.riverhunter",
+          "Copies": 3
+        },
+        {
+          "CardId": "red.rootwovenguard",
+          "Copies": 2
+        },
+        {
+          "CardId": "red.spearoffirstdawn",
+          "Copies": 2
+        },
+        {
+          "CardId": "red.younghunter",
+          "Copies": 3
+        }
+      ]
+    },
+    {
+      "Name": "iron",
+      "Owner": "Iron",
+      "Faction": "Iron",
+      "CardCount": 30,
+      "Cards": [
+        {
+          "CardId": "iron.bitetheroots",
+          "Copies": 3
+        },
+        {
+          "CardId": "iron.blacktoothsmith",
+          "Copies": 3
+        },
+        {
+          "CardId": "iron.bonecrackercub",
+          "Copies": 4
+        },
+        {
+          "CardId": "iron.bonespear",
+          "Copies": 2
+        },
+        {
+          "CardId": "iron.falseopening",
+          "Copies": 2
+        },
+        {
+          "CardId": "iron.fangrelic",
+          "Copies": 2
+        },
+        {
+          "CardId": "iron.hyenapackcall",
+          "Copies": 2
+        },
+        {
+          "CardId": "iron.ironguard",
+          "Copies": 2
+        },
+        {
+          "CardId": "iron.ironhyenachampion",
+          "Copies": 2
+        },
+        {
+          "CardId": "iron.ironhyenaraider",
+          "Copies": 3
+        },
+        {
+          "CardId": "iron.ironhyenaunderworld",
+          "Copies": 1
+        },
+        {
+          "CardId": "iron.ironsnare",
+          "Copies": 2
+        },
+        {
+          "CardId": "iron.rusthyenaspirit",
+          "Copies": 2
+        }
+      ]
+    },
+    {
+      "Name": "iron-hyena-aggro",
+      "Owner": "Iron",
+      "Faction": "Iron",
+      "CardCount": 30,
+      "Cards": [
+        {
+          "CardId": "iron.bitetheroots",
+          "Copies": 3
+        },
+        {
+          "CardId": "iron.blacktoothsmith",
+          "Copies": 3
+        },
+        {
+          "CardId": "iron.bonecrackercub",
+          "Copies": 4
+        },
+        {
+          "CardId": "iron.bonespear",
+          "Copies": 2
+        },
+        {
+          "CardId": "iron.falseopening",
+          "Copies": 2
+        },
+        {
+          "CardId": "iron.fangrelic",
+          "Copies": 2
+        },
+        {
+          "CardId": "iron.hyenapackcall",
+          "Copies": 2
+        },
+        {
+          "CardId": "iron.ironguard",
+          "Copies": 2
+        },
+        {
+          "CardId": "iron.ironhyenachampion",
+          "Copies": 2
+        },
+        {
+          "CardId": "iron.ironhyenaraider",
+          "Copies": 3
+        },
+        {
+          "CardId": "iron.ironhyenaunderworld",
+          "Copies": 1
+        },
+        {
+          "CardId": "iron.ironsnare",
+          "Copies": 2
+        },
+        {
+          "CardId": "iron.rusthyenaspirit",
+          "Copies": 2
+        }
+      ]
+    }
+  ],
+  "ShrinePackages": [
+    {
+      "Deck": "red",
+      "Faction": "Red",
+      "Shrines": [
+        "red.shrine.baobab",
+        "red.shrine.rootstone",
+        "red.shrine.moonlitroots"
+      ]
+    },
+    {
+      "Deck": "red-hunter-evolution",
+      "Faction": "Red",
+      "Shrines": [
+        "red.shrine.baobab",
+        "red.shrine.rootstone",
+        "red.shrine.moonlitroots"
+      ]
+    },
+    {
+      "Deck": "iron",
+      "Faction": "Iron",
+      "Shrines": [
+        "iron.shrine.den",
+        "iron.shrine.bonefang",
+        "iron.shrine.rustedmoon"
+      ]
+    },
+    {
+      "Deck": "iron-hyena-aggro",
+      "Faction": "Iron",
+      "Shrines": [
+        "iron.shrine.den",
+        "iron.shrine.bonefang",
+        "iron.shrine.rustedmoon"
+      ]
+    }
+  ],
+  "AncestorPackages": [
+    {
+      "Deck": "red",
+      "Faction": "Red",
+      "Ancestors": [
+        "red.ancestor.firsthunter",
+        "red.ancestor.grandmother",
+        "red.ancestor.childremembered"
+      ]
+    },
+    {
+      "Deck": "red-hunter-evolution",
+      "Faction": "Red",
+      "Ancestors": [
+        "red.ancestor.firsthunter",
+        "red.ancestor.grandmother",
+        "red.ancestor.childremembered"
+      ]
+    },
+    {
+      "Deck": "iron",
+      "Faction": "Iron",
+      "Ancestors": [
+        "iron.ancestor.hyena",
+        "iron.ancestor.toothmother",
+        "iron.ancestor.smith"
+      ]
+    },
+    {
+      "Deck": "iron-hyena-aggro",
+      "Faction": "Iron",
+      "Ancestors": [
+        "iron.ancestor.hyena",
+        "iron.ancestor.toothmother",
+        "iron.ancestor.smith"
+      ]
+    }
+  ]
+}

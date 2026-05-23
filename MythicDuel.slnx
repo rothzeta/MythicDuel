@@ -1,0 +1,19 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/Solution Items/Docs/">
+    <File Path="docs/BOT_HEURISTICS_V0.md" />
+    <File Path="docs/CARDS_V0.md" />
+    <File Path="docs/METRICS_V0.md" />
+    <File Path="docs/REPORT_FORMAT_V0.md" />
+    <File Path="docs/RULES_V0.md" />
+    <File Path="docs/V0_ARCHITECTURE_NOTES.md" />
+  </Folder>
+  <Folder Name="/Solution Items/Config/">
+    <File Path="config/RUN_COMMANDS.md" />
+  </Folder>
+  <Project Path="MythicDuel.Core/MythicDuel.Core.csproj" />
+  <Project Path="MythicDuel.Sim/MythicDuel.Sim.csproj" />
+  <Project Path="MythicDuel.Tests/MythicDuel.Tests.csproj" />
+</Solution>

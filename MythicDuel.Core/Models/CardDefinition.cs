@@ -1,0 +1,28 @@
+namespace MythicDuel.Core.Models;
+
+public sealed record CardDefinition(
+    string Id,
+    string Name,
+    PlayerId DeckOwner,
+    string Faction,
+    CardType CardType,
+    int OfferingCost,
+    int MemoryCost,
+    int Attack,
+    int Vitality,
+    Keyword Keywords,
+    IReadOnlyList<string> Tags,
+    int PresenceCost = 0,
+    bool CanAttackShrines = false,
+    bool CanAttackUnits = true,
+    bool CanAttackOnEnter = false,
+    bool IsEvolution = false,
+    string? EvolveFromTag = null,
+    EvolveConditionKind EvolveCondition = EvolveConditionKind.None,
+    int EvolveOfferingCost = 0,
+    int EvolveMemoryCost = 0,
+    int RecallMemoryCost = 0,
+    PreparedTrigger PreparedTrigger = PreparedTrigger.None,
+    int MaxCopies = 1,
+    string RulesText = "",
+    CardLevel Level = CardLevel.None);

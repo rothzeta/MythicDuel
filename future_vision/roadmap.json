@@ -1,0 +1,72 @@
+[
+  {
+    "phase": 0,
+    "name": "Freeze and inventory",
+    "goal": "Extract rules/known bugs/reference reports from current simulator"
+  },
+  {
+    "phase": 1,
+    "name": "New core skeleton",
+    "goal": "Typed IDs, GameState, PlayerState, CardInstance, GameEngine"
+  },
+  {
+    "phase": 2,
+    "name": "Catalog and deck loading",
+    "goal": "Load red/iron as Seat1/Seat2 decks"
+  },
+  {
+    "phase": 3,
+    "name": "Legal actions",
+    "goal": "Generate legal actions for UI/bots"
+  },
+  {
+    "phase": 4,
+    "name": "Minimal battle loop",
+    "goal": "Basic duel completes bot-vs-bot"
+  },
+  {
+    "phase": 5,
+    "name": "Human-vs-bot runner",
+    "goal": "Crude playable new-engine duel"
+  },
+  {
+    "phase": 6,
+    "name": "RuleIndex and modules",
+    "goal": "Keywords/effects/modifiers/replacements/triggers"
+  },
+  {
+    "phase": 7,
+    "name": "Evolution and Mythic",
+    "goal": "Port evolution constraints and diagnostics"
+  },
+  {
+    "phase": 8,
+    "name": "Pack/Presence/Prepared/Ancestors",
+    "goal": "Mechanic parity with current design"
+  },
+  {
+    "phase": 9,
+    "name": "Simulation/reports",
+    "goal": "Batch runner and generic metrics"
+  },
+  {
+    "phase": 10,
+    "name": "Second deck",
+    "goal": "Prove generic deck/faction support"
+  },
+  {
+    "phase": 11,
+    "name": "UI prototype upgrade",
+    "goal": "Move beyond crude UI without rules in UI"
+  },
+  {
+    "phase": 12,
+    "name": "Roguelite wrapper",
+    "goal": "Run mode on top of battle core"
+  },
+  {
+    "phase": 13,
+    "name": "PvP readiness",
+    "goal": "Server-authoritative command/event flow"
+  }
+]

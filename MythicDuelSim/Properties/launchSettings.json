@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MythicDuelSim": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
