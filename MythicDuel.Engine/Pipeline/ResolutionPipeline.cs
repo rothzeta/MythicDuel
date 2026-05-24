@@ -9,6 +9,12 @@ public sealed class ResolutionPipeline
             var turn = new MythicDuel.Engine.Rules.TurnSystem();
             turn.EndTurn(context.State);
         }
+        else if (context.Command is DeclareAttackCommand attackCmd)
+        {
+            var combat = new MythicDuel.Engine.Rules.CombatSystem();
+            combat.ResolveAttack(context.State, attackCmd);
+        }
+
         return CommandResult.Success();
     }
 }

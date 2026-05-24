@@ -60,7 +60,40 @@ public class RulesTests
     {
         var state = new GameState();
         var sys = new DamageSystem();
-        sys.ApplyDamage(state);
-        Assert.NotNull(state);
+        var targetShrine = new ShrineState { Name = "Iron Shrine" };
+
+        sys.ApplyShrineDamage(state, PlayerId.Seat1, targetShrine, 2);
+        sys.ApplyShrineDamage(state, PlayerId.Seat1, targetShrine, 3);
+
+        Assert.Equal(5, targetShrine.Damage);
+    }
+
+    [Fact]
+    public void Unblocked_shrine_attack_deals_shrine_damage()
+    {
+        var state = new GameState();
+        state.Player1.Id = PlayerId.Seat1;
+        state.Player2.Id = PlayerId.Seat2;
+
+        var targetShrine = new ShrineState { Name = "Iron Shrine" };
+        state.Player2.Shrines.Add(targetShrine);
+
+        var attackerId = new CardInstanceId(1);
+        var attacker = new CardInstance
+        {
+            Id = attackerId,
+            Controller = PlayerId.Seat1,
+            Zone = Zone.Battlefield,
+            BaseAttack = 3
+        };
+        state.Cards[attackerId] = attacker;
+
+        var engine = new GameEngine();
+        var cmd = new DeclareAttackCommand(PlayerId.Seat1, attackerId, "Iron Shrine");
+
+        var result = engine.Execute(state, cmd);
+
+        Assert.True(result.IsValid);
+        Assert.Equal(3, targetShrine.Damage);
     }
 }
