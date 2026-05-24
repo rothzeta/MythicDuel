@@ -23,6 +23,10 @@ public class SimulationRunner
     public SimulationResult RunSingle(SimulationOptions options)
     {
         var state = new GameState();
+        state.Player1.Id = PlayerId.Seat1;
+        state.Player2.Id = PlayerId.Seat2;
+        state.ActivePlayer = PlayerId.Seat1;
+
         var engine = new GameEngine();
         engine.Execute(state, new EndTurnCommand(PlayerId.Seat1));
 
@@ -69,9 +73,10 @@ class Program
         else
         {
             Console.WriteLine("MythicDuel Engine Sim V2 - CLI Duel");
-
-            Console.WriteLine("MythicDuel Engine Sim V2 - CLI Duel");
             var state = new GameState();
+            state.Player1.Id = PlayerId.Seat1;
+            state.Player2.Id = PlayerId.Seat2;
+            state.ActivePlayer = PlayerId.Seat1;
             var engine = new GameEngine();
 
             while (true)
@@ -84,7 +89,6 @@ class Program
                 engine.Execute(state, cmd);
                 Console.WriteLine("Action executed. Turn advanced.");
             }
-
         }
     }
 }
