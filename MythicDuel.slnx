@@ -14,6 +14,9 @@
     <File Path="config/RUN_COMMANDS.md" />
   </Folder>
   <Project Path="MythicDuel.Core/MythicDuel.Core.csproj" />
+  <Project Path="MythicDuel.Engine.Sim/MythicDuel.Engine.Sim.csproj" />
+  <Project Path="MythicDuel.Engine.Tests/MythicDuel.Engine.Tests.csproj" />
+  <Project Path="MythicDuel.Engine/MythicDuel.Engine.csproj" />
   <Project Path="MythicDuel.Sim/MythicDuel.Sim.csproj" />
   <Project Path="MythicDuel.Tests/MythicDuel.Tests.csproj" />
 </Solution>
